@@ -1,0 +1,32 @@
+.identity-color-red {
+  --identity-tab-color: #ea6962 !important;
+  --identity-icon-color: #ea6962 !important;
+}
+.identity-color-blue {
+  --identity-tab-color: #7daea3 !important;
+  --identity-icon-color: #7daea3 !important;
+}
+.identity-color-turquoise {
+  --identity-tab-color: #89b482 !important;
+  --identity-icon-color: #89b482 !important;
+}
+.identity-color-green {
+  --identity-tab-color: #a9b665 !important;
+  --identity-icon-color: #a9b665 !important;
+}
+.identity-color-yellow {
+  --identity-tab-color: #d8a657 !important;
+  --identity-icon-color: #d8a657 !important;
+}
+.identity-color-orange {
+  --identity-tab-color: #e78a4e !important;
+  --identity-icon-color: #e78a4e !important;
+}
+.identity-color-purple {
+  --identity-tab-color: #d3869b !important;
+  --identity-icon-color: #d3869b !important;
+}
+
+:root[lwt-toolbar-field-focus-brighttext] {
+  --lwt-popup-brighttext-url-color: #7daea3 !important;
+}
