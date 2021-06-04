@@ -1,6 +1,0 @@
-2021/05/16-03:22:52.848 3 Reusing MANIFEST /home/jonathan/.config/vivaldi/Default/Local Storage/leveldb/MANIFEST-000001
-2021/05/16-03:22:52.849 3 Recovering log #544
-2021/05/16-03:22:52.849 3 Reusing old log /home/jonathan/.config/vivaldi/Default/Local Storage/leveldb/000544.log 
-2021/05/16-03:23:48.415 5 Level-0 table #549: started
-2021/05/16-03:23:48.421 5 Level-0 table #549: 11535 bytes OK
-2021/05/16-03:23:48.425 5 Delete type=0 #544

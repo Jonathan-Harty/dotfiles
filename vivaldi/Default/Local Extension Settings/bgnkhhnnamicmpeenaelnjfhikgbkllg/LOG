@@ -1,9 +1,0 @@
-2021/06/03-20:28:43.834 985c Reusing MANIFEST /home/jonathan/.config/vivaldi/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/MANIFEST-000001
-2021/06/03-20:28:43.834 985c Recovering log #13
-2021/06/03-20:28:43.848 985c Level-0 table #16: started
-2021/06/03-20:28:43.864 985c Level-0 table #16: 1798607 bytes OK
-2021/06/03-20:28:43.869 985c Delete type=0 #13
-2021/06/03-20:28:43.870 98a2 Compacting 4@0 + 0@1 files
-2021/06/03-20:28:43.918 98a2 Generated table #18@0: 3 keys, 1791612 bytes
-2021/06/03-20:28:43.918 98a2 Compacted 4@0 + 0@1 files => 1791612 bytes
-2021/06/03-20:28:43.925 98a2 compacted to: files[ 0 1 1 0 0 0 0 ]

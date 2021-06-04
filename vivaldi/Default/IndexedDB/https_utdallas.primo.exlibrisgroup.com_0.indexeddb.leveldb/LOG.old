@@ -1,5 +1,0 @@
-2021/04/29-16:58:19.286 d14 Reusing MANIFEST /home/jonathan/.config/vivaldi/Default/IndexedDB/https_utdallas.primo.exlibrisgroup.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/29-16:58:35.805 46d Level-0 table #5: started
-2021/04/29-16:58:35.822 46d Level-0 table #5: 4231 bytes OK
-2021/04/29-16:58:35.828 46d Delete type=0 #3
-2021/04/29-16:58:35.828 46d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

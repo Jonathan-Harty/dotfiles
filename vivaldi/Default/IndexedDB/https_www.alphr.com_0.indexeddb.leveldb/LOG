@@ -1,5 +1,0 @@
-2021/04/29-17:28:00.167 2772 Reusing MANIFEST /home/jonathan/.config/vivaldi/Default/IndexedDB/https_www.alphr.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/29-17:28:32.526 2772 Level-0 table #5: started
-2021/04/29-17:28:32.542 2772 Level-0 table #5: 1340 bytes OK
-2021/04/29-17:28:32.546 2772 Delete type=0 #3
-2021/04/29-17:28:32.546 2772 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

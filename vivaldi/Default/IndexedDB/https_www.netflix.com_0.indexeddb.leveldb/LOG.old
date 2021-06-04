@@ -1,6 +1,0 @@
-2021/05/10-22:59:53.872 10f1b Creating DB /home/jonathan/.config/vivaldi/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb since it was missing.
-2021/05/10-22:59:53.884 10f1b Reusing MANIFEST /home/jonathan/.config/vivaldi/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/05/10-23:01:50.544 fc97 Level-0 table #5: started
-2021/05/10-23:01:50.548 fc97 Level-0 table #5: 417483 bytes OK
-2021/05/10-23:01:50.552 fc97 Delete type=0 #3
-2021/05/10-23:01:50.552 fc97 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
