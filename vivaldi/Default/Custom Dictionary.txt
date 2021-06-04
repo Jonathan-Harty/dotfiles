@@ -1,0 +1,4 @@
+Yaudara
+nonmagical
+warhammer
+checksum_v1 = 1674bc41928716302c915ccf6d3b3089

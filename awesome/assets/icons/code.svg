@@ -1,0 +1,16 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+ <title/>
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="582" height="402" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect fill="#ea6962" stroke-width="null" stroke-opacity="null" x="44.882585" y="61.636166" width="40.13719" height="4.727653" id="svg_16" rx="2" transform="rotate(-67 64.95117950439455,63.999992370605476) " stroke="null"/>
+  <rect fill="#a9b665" stroke="null" stroke-width="null" stroke-opacity="null" x="74.125911" y="67.433783" width="21.386797" height="4.812029" id="svg_12" rx="2" transform="rotate(-220 84.8193130493164,69.83979797363281) "/>
+  <rect fill="#a9b665" stroke="null" stroke-width="null" stroke-opacity="null" x="73.99223" y="56.606705" width="21.386797" height="4.812029" id="svg_13" rx="2" transform="rotate(-140 84.68563079833986,59.01271820068359) "/>
+  <rect fill="#a9b665" stroke="null" stroke-width="null" stroke-opacity="null" x="33.780222" y="56.606708" width="21.386797" height="4.812029" id="svg_7" rx="2" transform="rotate(-40 44.47361755371094,59.01272201538086) "/>
+  <rect fill="#a9b665" stroke="null" stroke-width="null" stroke-opacity="null" x="33.913889" y="67.433774" width="21.386797" height="4.812029" id="svg_8" rx="2" transform="rotate(40 44.60728454589844,69.83979797363281) "/>
+ </g>
+</svg>

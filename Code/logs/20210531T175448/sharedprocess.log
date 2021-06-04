@@ -1,0 +1,7 @@
+[2021-05-31 17:54:52.318] [sharedprocess] [info] Installing extension: vscjava.vscode-java-pack
+[2021-05-31 17:54:53.340] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-pack /home/jonathan/.config/Code/CachedExtensionVSIXs/vscjava.vscode-java-pack-0.16.0
+[2021-05-31 17:54:53.432] [sharedprocess] [info] Extracted extension to /home/jonathan/.vscode/extensions/.c2452650-ca87-4e91-9e75-02a55f7121ce: vscjava.vscode-java-pack
+[2021-05-31 17:54:53.437] [sharedprocess] [info] Renamed to /home/jonathan/.vscode/extensions/vscjava.vscode-java-pack-0.16.0
+[2021-05-31 17:54:53.438] [sharedprocess] [info] Installation completed. vscjava.vscode-java-pack
+[2021-05-31 17:54:53.445] [sharedprocess] [info] Extensions installed successfully: vscjava.vscode-java-pack
+[2021-05-31 17:55:29.936] [sharedprocess] [info] Starting to clean up unused language packs.

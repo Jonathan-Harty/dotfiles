@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/inc/tachyons-4.0.4.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            src: url('Lato-Regular.ttf')
+        }
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            src: url('Lato-Bold.ttf')
+        }
+    </style>
+    <link rel="stylesheet" href="/src/colorjoe.css">
+    <link rel="stylesheet" type="text/css" href="/font-awesome.css">
+    <script src="/src/jquery.js"></script>
+    <script src="/src/colorjoe.js"></script>
+
+    <script src="/inc/pusher.color.min.js"></script>
+    <script src="/src/popup.js" async></script>
+    <link rel="stylesheet" href="./bootstrap.css">
+</head>
+
+
+<body style="width: 370px; height: 500px;">
+    <div class="text-center" style="padding: 6px; height: 53px;">
+        <img src="/icon-128.png" width="41px" height="41px" style="float: left;">
+        <label for="colorType"></label>
+        <select class="form-control" id="colorType" style="width: 45%; position: absolute; top: 6px; margin-left: auto; margin-right: auto; left: 0; right: 0; text-align: center; border: none;">
+          <option id="selectedCol" value="sel" selected>Selected Color</option>
+          <option id="dominantCol" value="dom">Dominant Color</option>
+        </select>
+    </div>
+    <div class="w-100" id="colorPicker" style="margin-left: 6px; height: 190px;"></div>
+    
+    <div style="padding: 16px 16px; height: 95px;">
+        <div class="selected-color" style="background: #3AB87A; border: 1px solid #949494; border-radius: 18.5px; width: 28px; height: 28px; float: left;"></div>
+        <div style="display: inline-flex;">
+            <label for="colorValue"></label>
+            <input title="Copy to clipboard" style="cursor: pointer; text-align: center; width: 265px; margin-left: 16px; font-family: Lato; font-size: 16px; color: #6C6C6C;" type="text" class="form-control" id="colorValue" value="#FFFFFF" readonly>
+            <h1 id="colType" style="position: absolute; left: 175px; top: 309px; font-family: Lato; font-weight: bold; font-size: 16px; color: #AEAEAE;">HEX</h1>
+            <div id="upArrow" style="cursor: pointer; color: #AEAEAE; height: 100%; position: absolute; left: 333px; top: 260px;"><i class="fa fa-arrow-up" aria-hidden="true"></i></div>
+            <div id="downArrow" style="cursor: pointer; color: #AEAEAE; height: 100%; position: absolute; left: 333px; top: 283px;"><i class="fa fa-arrow-down" aria-hidden="true"></i></div>
+        </div>
+    </div>
+
+    <div class="w-100" style="height: 156px; border-top: 1px solid #cacaca; padding-left: 16px; padding-right: 16px;">
+        <h1 style="margin-top: 16px; font-family: Lato; color: #949494; font-weight: bold; font-size: 14px;">Recent</h1>
+        <div style="margin-top: 8px; margin-bottom: 24px;">
+            <div id="color-1" class="rec-col" style="display: inline-block; cursor: pointer; width: 28px; height: 28px; background: #A8B4AE; border: 1px solid #949494; border-radius: 100%; margin-right: 6px;"></div>
+            <div id="color-2" class="rec-col" style="display: inline-block; cursor: pointer; width: 28px; height: 28px; background: #A8B4AE; border: 1px solid #949494; border-radius: 100%; margin-right: 6px;"></div>
+            <div id="color-3" class="rec-col" style="display: inline-block; cursor: pointer; width: 28px; height: 28px; background: #A8B4AE; border: 1px solid #949494; border-radius: 100%; margin-right: 6px;"></div>
+            <div id="color-4" class="rec-col" style="display: inline-block; cursor: pointer; width: 28px; height: 28px; background: #A8B4AE; border: 1px solid #949494; border-radius: 100%; margin-right: 6px;"></div>
+            <div id="color-5" class="rec-col" style="display: inline-block; cursor: pointer; width: 28px; height: 28px; background: #A8B4AE; border: 1px solid #949494; border-radius: 100%; margin-right: 6px;"></div>
+            <div id="color-6" class="rec-col" style="display: inline-block; cursor: pointer; width: 28px; height: 28px; background: #A8B4AE; border: 1px solid #949494; border-radius: 100%; margin-right: 6px;"></div>
+            <div id="color-7" class="rec-col" style="display: inline-block; cursor: pointer; width: 28px; height: 28px; background: #A8B4AE; border: 1px solid #949494; border-radius: 100%; margin-right: 6px;"></div>
+            <div id="color-8" class="rec-col" style="display: inline-block; cursor: pointer; width: 28px; height: 28px; background: #A8B4AE; border: 1px solid #949494; border-radius: 100%; margin-right: 6px;"></div>
+            <div id="color-9" class="rec-col" style="display: inline-block; cursor: pointer; width: 28px; height: 28px; background: #A8B4AE; border: 1px solid #949494; border-radius: 100%;"></div>
+        </div>
+        <div id="pick" style="border-radius: 4px; background: #2497FF; height: 50px; margin-bottom: 16px; cursor: pointer;">
+            <h1 style="font-family: Lato; font-weight: bold; font-size: 16px; text-align: center; color: #FFFFFF; line-height: 50px;">PICK COLOR</h1>
+        </div>
+        <div id="pick-message" style="display: none; font-family: Lato; font-weight: bold; font-size: 16px; color: #AEAEAE; text-align: center;"></div>
+    </div>
+</body>
+</html>

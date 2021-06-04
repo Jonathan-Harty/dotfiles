@@ -1,0 +1,14 @@
+[2021-05-31 22:04:25.149] [sharedprocess] [info] Deleted from disk vscjava.vscode-java-pack /home/jonathan/.vscode/extensions/vscjava.vscode-java-pack-0.15.0
+[2021-05-31 22:05:04.945] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-06-01 10:04:27.288] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-wsl
+[2021-06-01 10:04:27.288] [sharedprocess] [info] Installing extension: sainnhe.gruvbox-material
+[2021-06-01 10:04:27.773] [sharedprocess] [info] Downloaded extension: sainnhe.gruvbox-material /home/jonathan/.config/Code/CachedExtensionVSIXs/sainnhe.gruvbox-material-6.4.5
+[2021-06-01 10:04:27.814] [sharedprocess] [info] Extracted extension to /home/jonathan/.vscode/extensions/.36548163-4bc3-4d41-b11b-7664fbd11924: sainnhe.gruvbox-material
+[2021-06-01 10:04:27.815] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-wsl /home/jonathan/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-wsl-0.56.4
+[2021-06-01 10:04:27.819] [sharedprocess] [info] Renamed to /home/jonathan/.vscode/extensions/sainnhe.gruvbox-material-6.4.5
+[2021-06-01 10:04:27.820] [sharedprocess] [info] Installation completed. sainnhe.gruvbox-material
+[2021-06-01 10:04:27.828] [sharedprocess] [info] Extensions installed successfully: sainnhe.gruvbox-material
+[2021-06-01 10:04:27.840] [sharedprocess] [info] Extracted extension to /home/jonathan/.vscode/extensions/.4f22fe85-8cb4-4280-a71c-7b01c1a64891: ms-vscode-remote.remote-wsl
+[2021-06-01 10:04:27.845] [sharedprocess] [info] Renamed to /home/jonathan/.vscode/extensions/ms-vscode-remote.remote-wsl-0.56.4
+[2021-06-01 10:04:27.845] [sharedprocess] [info] Installation completed. ms-vscode-remote.remote-wsl
+[2021-06-01 10:04:27.852] [sharedprocess] [info] Extensions installed successfully: ms-vscode-remote.remote-wsl

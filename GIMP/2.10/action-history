@@ -1,0 +1,15 @@
+# GIMP action-history
+
+(history-item "edit-cut" 2)
+(history-item "file-overwrite" 2)
+(history-item "file-open" 0)
+(history-item "file-quit" 1)
+(history-item "layers-delete" 1)
+(history-item "edit-copy" 0)
+(history-item "tools-pencil" 0)
+(history-item "layers-edit-attributes" 0)
+(history-item "layers-new" 0)
+(history-item "tools-paintbrush" 0)
+(history-item "layers-merge-layers" 1)
+
+# end of action-history

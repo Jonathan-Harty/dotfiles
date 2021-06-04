@@ -1,0 +1,18 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/Downloads/,/tmp/mozilla_jonathan0/
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME
+Recent URLs[$e]=file:///tmp/mozilla_jonathan0/,file:$HOME/Downloads/
+detailViewIconSize=16
+
+[MainWindow]
+DP-1 DP-2 Height 3440x1440=1396
+DP-1 DP-2 Width 3440x1440=1652
+DP-1 DP-2 XPosition 3440x1440=1781
+DP-1 DP-2 YPosition 3440x1440=36
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAABnQAAAVCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+splitterSizes=1098,549

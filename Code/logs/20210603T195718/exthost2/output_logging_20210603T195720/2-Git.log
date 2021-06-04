@@ -1,0 +1,66 @@
+Looking for git in: git
+Using git 2.31.1 from git
+> git rev-parse --git-dir
+Open repository: /home/jonathan/nord-awesome
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/jonathan/nord-awesome/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :layout/left-panel/init.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/layout/left-panel/init.lua
+> git cat-file -s 5b24aa6d7947c64d5418be2598c10282ab0f7a10
+> git check-ignore -v -z --stdin
+> git config --global user.email
+> git config --global user.name
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/jonathan/nord-awesome/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show -s --format=%an <%ae> [%ai] dfb620fa00f3782e8e023563e8654191b4edd1e0
+> git check-ignore -v -z --stdin
+> git show --textconv :configuration/rofi.rasi
+> git ls-files --stage -- /home/jonathan/nord-awesome/configuration/rofi.rasi
+> git cat-file -s 2ba448e8553f9deb464eefbc20ebd574b00cca81
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :theme/default-theme.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/theme/default-theme.lua
+> git cat-file -s 802f972e605977c29419150971bbd601d36e6600
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/jonathan/nord-awesome/theme/default-theme.lua
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /home/jonathan/nord-awesome/theme/default-theme.lua
+> git show --textconv :configuration/rofi.rasi
+> git ls-files --stage -- /home/jonathan/nord-awesome/configuration/rofi.rasi
+> git cat-file -s 2ba448e8553f9deb464eefbc20ebd574b00cca81
+> git show --textconv :theme/default-theme.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/theme/default-theme.lua
+> git cat-file -s 802f972e605977c29419150971bbd601d36e6600
+> git show --textconv :configuration/rofi.rasi
+> git ls-files --stage -- /home/jonathan/nord-awesome/configuration/rofi.rasi
+> git cat-file -s 2ba448e8553f9deb464eefbc20ebd574b00cca81
+> git show --textconv :layout/left-panel/init.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/layout/left-panel/init.lua
+> git cat-file -s 5b24aa6d7947c64d5418be2598c10282ab0f7a10
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/jonathan/nord-awesome/layout/left-panel/init.lua
+> git show --textconv :configuration/apps.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/configuration/apps.lua
+> git cat-file -s 76ad4ac1acb3b4d81f26f1e6f38767876c097777
+> git show --textconv :layout/left-panel/init.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/layout/left-panel/init.lua
+> git cat-file -s 5b24aa6d7947c64d5418be2598c10282ab0f7a10
+> git show --textconv :configuration/keys/global.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/configuration/keys/global.lua
+> git cat-file -s d42d4f6952c38cbc2588a57f5f9eade76a9d182a
+> git show --textconv :configuration/rofi.rasi
+> git ls-files --stage -- /home/jonathan/nord-awesome/configuration/rofi.rasi
+> git cat-file -s 2ba448e8553f9deb464eefbc20ebd574b00cca81

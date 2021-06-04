@@ -1,0 +1,2117 @@
+/* ==UserStyle==
+@name           GitHub Dark 2.0
+@namespace      USO Archive
+@author         cquanu
+@description    `Dark theme for GitHub - Switch off the lights on GitHub and browse GitHub in nighttime mode.For bug reports, open an issue or submit a pull request on <a href="https://github.com/cquanu/github-dark">GitHub</a>.Alternatively, copy-pasta the styles from <code>github-dark.css</code> into a new userstyle. Be sure to specify that it apply to sites beginning with https://github.com/*.`
+@version        20161221.4.44
+@license        NO-REDISTRIBUTION
+@preprocessor   uso
+==/UserStyle== */
+@-moz-document domain("render.githubusercontent.com"), domain("raw.githubusercontent.com"), regexp("^https?://((gist|guides|help|raw|status|developer).)?github.com((?!generated_pages/preview).)*$")
+{
+  /* 
+   * GitHub Dark v2.6.0
+   * Copyright 2016 Quan You.
+   * GitHub Project (https://cquanu.github.io/github-dark/)
+   * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
+  */
+
+  /* HTML Global */
+
+  body {
+    background-color: #292828;
+    color: #d4be98;
+  }
+
+  p {
+    color: #68948a !important;
+  }
+
+  h4 {
+    color: #d4be98;
+  }
+
+  /* Class Global */
+
+  .lead {
+    color: #a89984;
+  }
+
+  /* Main Site and New User */
+
+  .site-header {
+    background-color: #32302f;
+  }
+
+  .site-header-nav .nav-item {
+    color: #d4be98;
+  }
+
+  .jumbotron-home {
+    background-image: none;
+    background-color: #292828;
+  }
+
+  .features-list .list-divider,
+  .setup-form .tos-info,
+  .setup-form .setup-organization-next {
+    border-color: #45403d;
+  }
+
+  .radio-label {
+    border-color: #45403d;
+  }
+
+  .tag-input-tag {
+    background: #32302f;
+  }
+
+  .tag-input-tag .remove {
+    background: #292828;
+  }
+
+  .home-hero-signup .form-control-lg {
+    border-color: #45403d;
+  }
+
+  .shade-gray {
+    background-color: #1c1c1c !important;
+  }
+
+  .tile-block {
+    border-color: #45403d;
+  }
+
+  .tile-bordered:not(:last-child) {
+    border-color: #45403d;
+  }
+
+  /* Main Site Login */
+
+  .session-authentication {
+    background-color: #292828;
+  }
+
+  .session-authentication .header-logo {
+    color: #d4be98;
+  }
+
+  .session-authentication .auth-form-body {
+    border-color: #45403d;
+  }
+
+  .auth-form-body {
+    background-color: #292828;
+  }
+
+  .session-authentication .create-account-callout {
+    border-color: #45403d;
+  }
+
+  .session-authentication .auth-form-header {
+    color: #d4be98;
+  }
+
+  /* Site Wide Global */
+
+  .header {
+    background-color: #32302f;
+    border-color: #45403d;
+  }
+
+  .header-logo-invertocat {
+    color: #d4be98;
+  }
+
+  .header-search-scope {
+    border-color: #45403d;
+  }
+
+  .header-nav-link {
+    color: #d4be98;
+  }
+
+  /*.scoped-search .form-control .header-search-scope {
+      background-color: #292828;
+      border-color: #45403d;
+  }*/
+
+  .form-control,
+  .form-select {
+    color: #d4be98;
+    background-color: #1c1c1c;
+    border-color: #45403d;
+  }
+
+  .form-control.focus,
+  .form-control:focus,
+  .form-select.focus,
+  .form-select:focus {
+    box-shadow: none;
+  }
+
+  .form-group .form-control:focus {
+    background-color: #1c1c1c;
+  }
+
+  .btn {
+    color: #d4be98;
+    background-color: #292828;
+    background-image: none;
+    border-color: #45403d;
+  }
+
+  .btn:hover,
+  .btn:active,
+  .btn.zeroclipboard-is-hover,
+  .btn.zeroclipboard-is-active {
+    text-decoration: none;
+    background-color: #1c1c1c;
+    background-image: none;
+    border-color: #45403d;
+  }
+
+  .btn:active,
+  .btn.selected,
+  .btn.zeroclipboard-is-active {
+    background-color: #292828;
+    background-image: none;
+    border-color: #45403d;
+  }
+
+  .btn-primary {
+    color: #d4be98;
+    background-color: #72966c;
+    background-image: none;
+    border-color: #72966c;
+  }
+
+  .btn-theme-green {
+    background-color: #8f9a52;
+  }
+
+  .site-footer {
+    border-color: #45403d;
+  }
+
+  .dropdown-menu {
+    background-color: #292828;
+    border: 1px solid #45403d;
+    box-shadow: none;
+  }
+
+  .dropdown-divider {
+    background-color: #45403d;
+  }
+
+  .dropdown-item {
+    color: #a89984;
+  }
+
+  .dropdown-item:hover {
+    background-color: #32302f;
+  }
+
+  button.dropdown-item.dropdown-signout {
+    color: #b85651;
+  }
+
+  /* Site Related */
+
+  .setup-header {
+    border-color: #45403d;
+  }
+
+  /* Home */
+
+  .news .alert {
+    border-color: #45403d;
+  }
+
+  .news .alert .octicon {
+    color: #7daea3;
+  }
+
+  .news .alert .branch-link,
+  .news .alert .pull-info {
+    color: #1c1c1c;
+    background: #68948a;
+  }
+
+  .ajax-pagination-form .ajax-pagination-d {
+    background: #ddc7a1;
+  }
+
+  .boxed-group > h3,
+  .boxed-group .heading {
+    color: #d4be98;
+    background-color: #32302f;
+    border-color: #45403d;
+  }
+
+  .boxed-group-inner {
+    background: #292828;
+    border: 1px solid #45403d;
+  }
+
+  .mini-repo-list-item {
+    border-color: #45403d;
+  }
+
+  .mini-repo-list-item .repo-icon {
+    color: #7daea3;
+  }
+
+  .private .mini-repo-list-item {
+    background-color: #32302f;
+  }
+
+  .private .mini-repo-list-item .repo-icon {
+    color: #ddc7a1;
+  }
+
+  .filter-bar {
+    background-color: #292828;
+    border-bottom: 1px solid #45403d;
+  }
+
+  .boxed-group .counter {
+    color: #d4be98;
+    background-color: #292828;
+    border: 1px #45403d solid;
+  }
+
+  .subscribe-feed {
+    color: #7c6f64;
+  }
+
+  .protip-callout {
+    border-color: #45403d;
+  }
+
+  .octofication .broadcast-icon-mask {
+    background-color: #292828;
+  }
+
+  .link-gray-dark {
+    color: #68948a !important;
+  }
+
+  .more-repos {
+    text-align: center;
+    background-color: #32302f;
+    box-shadow: none;
+    border-top: 1px solid #45403d;
+  }
+
+  /* New Repo */
+
+  .outline-box-highlighted {
+    background-color: #292828;
+    border-color: #45403d;
+  }
+
+  .outline-box {
+    border: solid 1px #45403d;
+  }
+
+  .copyable-terminal {
+    background-color: #1c1c1c;
+  }
+
+  .reponame-suggestion {
+    color: #72966c;
+  }
+
+  /* Repo Page (Main) */
+
+  .repohead.experiment-repo-nav {
+    background-color: #1c1c1c;
+  }
+
+  .pagehead {
+    border-color: #45403d;
+  }
+
+  .repository-meta {
+    color: #a89984;
+  }
+
+  .social-count {
+    color: #68948a;
+    background-color: #1c1c1c;
+    border: 1px solid #45403d;
+    border-left: 0;
+  }
+
+  .user-mention,
+  .team-mention {
+    color: #68948a;
+  }
+
+  .reponav-item {
+    color: #a89984;
+  }
+
+  .reponav-item:hover,
+  .reponav-item:focus {
+    color: #d4be98;
+  }
+
+  .counter {
+    background-color: #1c1c1c;
+    border: 1px #45403d solid;
+  }
+
+  .reponav-item .counter {
+    color: #ddc7a1;
+  }
+
+  .reponav-item.selected {
+    color: #d4be98;
+    background-color: #292828;
+    border-color: #d8a657 #45403d transparent;
+  }
+
+  .btn.selected:hover {
+    background-color: #1c1c1c;
+  }
+
+  .overall-summary {
+    border-color: #45403d;
+  }
+
+  .text-emphasized {
+    color: #d4be98;
+  }
+
+  .numbers-summary a,
+  .numbers-summary .nolink {
+    color: #7daea3;
+  }
+
+  .repository-lang-stats-graph {
+    border-color: #45403d;
+  }
+
+  .repository-lang-stats ol.repository-lang-stats-numbers li .language-color {
+    border: 1px #45403d solid;
+  }
+
+  .repository-lang-stats ol.repository-lang-stats-numbers li .lang {
+    color: #d4be98;
+  }
+
+  table.files {
+    background: #292828;
+  }
+
+  table.files tr.navigation-focus td {
+    background: #1c1c1c;
+  }
+
+  table.files td {
+    border-color: #45403d;
+  }
+
+  table.files td.icon {
+    color: #d4be98;
+  }
+
+  .warning {
+    padding: 0.5em;
+    margin-bottom: 0.8em;
+    font-weight: bold;
+    background-color: #d8a657;
+  }
+
+  .file-wrap {
+    border-color: #45403d;
+  }
+
+  .commit-author-section {
+    color: #ccc;
+  }
+
+  .commit-tease {
+    color: #7daea3;
+    background-color: #32302f;
+    border-color: #5a524c;
+  }
+
+  .commits-list-item .commit-author {
+    color: #68948a;
+  }
+
+  .commit-tease-sha {
+    color: #68948a;
+  }
+
+  .commit-tease-contributors {
+    background-color: #1c1c1c;
+    border-color: #5a524c;
+  }
+
+  .commit .commit-title a {
+    color: #68948a;
+  }
+
+  .branch-infobar {
+    background-color: #292828;
+    border-color: #5a524c;
+  }
+
+  .full-commit {
+    background: #292828;
+    border: 1px solid #45403d;
+  }
+
+  .full-commit p.commit-title {
+    color: #68948a;
+  }
+
+  .full-commit .commit-meta {
+    background: #32302f;
+    border-color: #45403d;
+  }
+
+  .full-commit .sha-block {
+    color: #d4be98;
+  }
+
+  .full-commit .sha-block > .sha {
+    color: #a89984;
+  }
+
+  .full-commit .btn-outline,
+  .full-commit .btn-outline:disabled {
+    border-color: #45403d;
+  }
+
+  .commits-list-item.navigation-focus {
+    background: #1c1c1c;
+  }
+
+  .file-navigation .get-repo-btn {
+    border-color: #45403d;
+  }
+
+  .file-navigation .get-repo-btn:first-child {
+    border-color: #45403d;
+  }
+
+  .signed-commit-badge {
+    border-color: #45403d;
+  }
+
+  .signed-commit-signer-name .signer {
+    display: block;
+    font-weight: bold;
+    color: #68948a;
+  }
+
+  .flex-table-item-primary {
+    color: #d4be98;
+  }
+
+  span.d-block {
+    color: #d4be98;
+  }
+
+  .signed-commit-header {
+    background-color: #32302f;
+    border-color: #45403d;
+  }
+
+  /* Repo Blame */
+
+  .blame-commit-title,
+  .blame-commit-title .message {
+    color: #68948a;
+  }
+
+  .blame-commit,
+  .blame-commit + .blame-line {
+    border-color: #45403d;
+  }
+
+  .blame-blob-num {
+    background-color: #32302f;
+  }
+
+  .muted-link {
+    color: #68948a !important;
+  }
+
+  /* README Markdown Live */
+
+  .readme .markdown-body,
+  .readme .plain {
+    background-color: #1c1c1c;
+    border-color: #45403d;
+  }
+
+  .markdown-body .highlight pre,
+  .markdown-body pre {
+    background-color: #292828;
+    border: 1px #45403d solid;
+  }
+
+  .markdown-body h1 {
+    border-color: #45403d;
+  }
+
+  .markdown-body img {
+    background-color: #1c1c1c;
+  }
+
+  .markdown-body h1 .octicon-link,
+  .markdown-body h2 .octicon-link,
+  .markdown-body h3 .octicon-link,
+  .markdown-body h4 .octicon-link,
+  .markdown-body h5 .octicon-link,
+  .markdown-body h6 .octicon-link {
+    color: #d4be98;
+  }
+
+  .markdown-body table tr {
+    background-color: #292828;
+  }
+
+  .markdown-body table th,
+  .markdown-body table td {
+    border-color: #45403d;
+  }
+
+  .markdown-body table tr:nth-child(2n) {
+    background-color: #32302f;
+  }
+
+  .markdown-body pre code,
+  .markdown-body pre tt {
+    color: #7daea3;
+  }
+
+  .markdown-body code,
+  .markdown-body tt {
+    color: #1c1c1c;
+    background-color: #68948a;
+  }
+
+  .blob-num {
+    color: #7c6f64;
+    border-color: #45403d;
+  }
+
+  .blob-code-inner {
+    color: #7c6f64;
+  }
+
+  .blob-code-hunk,
+  .blob-code-expandable {
+    background-color: #32302f;
+  }
+
+  .blob-num-hunk,
+  .blob-num-expandable {
+    background-color: #32302f;
+  }
+
+  .blob-num-expandable {
+    background-color: #32302f;
+  }
+
+  .ace_editor .ace_gutter-active-line {
+    background-color: #32302f;
+  }
+
+  .ace_editor .ace_marker-layer .ace_active-line {
+    background-color: #32302f;
+  }
+
+  /* Code syntax Highlighting */
+
+  .pl-pds,
+  .pl-s,
+  .pl-s .pl-pse .pl-s1,
+  .pl-sr,
+  .pl-sr .pl-cce,
+  .pl-sr .pl-sra,
+  .pl-sr .pl-sre {
+    color: #68948a;
+  }
+
+  .pl-s .pl-s1,
+  .pl-smi {
+    color: #bbb;
+  }
+
+  .pl-k {
+    color: #ab6c7d;
+  }
+
+  .ace_string {
+    color: #68948a;
+  }
+
+  .ace_support.ace_type {
+    color: #ab6c7d;
+  }
+
+  .ace_keyword {
+    color: #7daea3;
+  }
+
+  .ace_variable {
+    color: #d8a657;
+  }
+
+  .ace_focus {
+    background-color: #000;
+  }
+
+  .ace_markup.ace_heading {
+    color: #68948a;
+  }
+
+  /* Markdown Standalone */
+
+  .markdown-body h2 {
+    border-color: #45403d;
+  }
+
+  .markdown-body hr {
+    background-color: #45403d;
+  }
+
+  .markdown-body blockquote {
+    border-color: #45403d;
+  }
+
+  /* Repo Code Tab Live | Markdown */
+
+  .file {
+    border-color: #45403d;
+  }
+
+  .file-header {
+    background-color: #292828;
+    border-color: #45403d;
+  }
+
+  .breadcrumb strong.final-path {
+    color: #a89984;
+  }
+
+  .ace_gutter {
+    background: #292828;
+    border-color: #45403d;
+  }
+
+  .ace-github-light {
+    color: #a89984;
+    background-color: #292828;
+  }
+
+  .file-commit-form .commit-form {
+    border-color: #45403d;
+  }
+
+  .commit-sha {
+    background-color: inherit;
+    border-color: #45403d;
+  }
+
+  /* Repo | Issues Tab */
+
+  .table-list-header {
+    background-color: #292828;
+    border-color: #45403d;
+  }
+
+  .Box-body-row--highlight .Box-row-link {
+    color: #68948a;
+  }
+
+  .Box-body-row {
+    border-top: 1px solid #45403d;
+  }
+
+  .Box-body-row--highlight.navigation-focus,
+  .Box-body-row--highlight:hover {
+    background-color: #1c1c1c;
+  }
+
+  .issues-listing .table-list-issues .navigation-focus {
+    background-color: #292828;
+  }
+
+  .table-list {
+    border-color: #45403d;
+  }
+
+  .table-list-cell {
+    border-top-color: #45403d;
+  }
+
+  .table-list-bordered .table-list-cell:first-child {
+    border-left-color: #45403d;
+  }
+
+  .table-list-bordered .table-list-cell:last-child {
+    border-right-color: #45403d;
+  }
+
+  .table-list-header-toggle .btn-link {
+    color: #a89984;
+  }
+
+  .table-list-header-toggle .btn-link:hover {
+    color: #d4be98;
+  }
+
+  .table-list-header-toggle .btn-link.selected,
+  .table-list-header-toggle .btn-link.selected:hover {
+    color: #d4be98;
+  }
+
+  .issue-title-link {
+    color: #68948a;
+  }
+
+  .protip {
+    color: #7c6f64;
+  }
+
+  .milestone-title-link a {
+    color: #ddc7a1;
+  }
+
+  .Box-body {
+    border-color: #45403d;
+  }
+
+  /* Dropdown Menu */
+
+  .select-menu-modal {
+    border-color: #45403d;
+    box-shadow: none;
+  }
+
+  .select-menu-header {
+    background: #32302f;
+    border-color: #45403d;
+  }
+
+  .select-menu-header .select-menu-title {
+    color: #a89984;
+    text-shadow: none;
+  }
+
+  .select-menu-header {
+    background: #32302f;
+    border-bottom: 1px solid #45403d;
+  }
+
+  .select-menu-item {
+    background-color: #292828;
+    border-color: #45403d;
+  }
+
+  .select-menu-item.selected {
+    color: #d4be98;
+  }
+
+  .select-menu-filters {
+    background-color: #292828;
+  }
+
+  .select-menu-text-filter:first-child:last-child {
+    border-color: #45403d;
+  }
+
+  .select-menu-text-filter input {
+    border-color: #45403d;
+  }
+
+  /* Repo | Pull Request Tab */
+
+  .border-left,
+  .border-right,
+  .border-bottom {
+    border-color: #45403d !important;
+  }
+
+  .pr-toolbar.is-stuck::after {
+    border-color: #45403d;
+    box-shadow: none;
+  }
+
+  /* Repo Issues & Pull Request Convo */
+
+  .gh-header-edit .edit-issue-title,
+  .gh-header-edit .edit-issue-title:focus {
+    background-color: #1c1c1c;
+  }
+
+  .gh-header-meta {
+    border-color: #45403d;
+  }
+
+  .gh-header-meta .author {
+    color: #68948a;
+  }
+
+  .commit-ref {
+    color: #1c1c1c;
+    background-color: #68948a;
+  }
+
+  .commit-ref .user {
+    color: #1c1c1c;
+  }
+
+  .tabnav-tab.selected {
+    background-color: #292828;
+  }
+
+  .tabnav-pr .tabnav-tab.selected {
+    color: #d4be98;
+    border-color: #45403d;
+  }
+
+  .tabnav-pr {
+    border-color: #45403d;
+  }
+
+  .timeline-comment-wrapper {
+    border: 0;
+  }
+
+  .timeline-comment-header {
+    background-color: #32302f;
+    border-color: #45403d;
+  }
+
+  .timeline-comment-header .author {
+    color: #68948a;
+  }
+
+  .timeline-comment {
+    background-color: #292828;
+    border-color: #45403d;
+  }
+
+  .timeline-comment-wrapper > .timeline-comment::before,
+  .timeline-new-comment .timeline-comment::before {
+    border-right-color: #45403d;
+  }
+
+  timeline-comment::before {
+    border-right-color: #32302f !important;
+  }
+
+  .timeline-comment::after {
+    border-right-color: #32302f !important;
+  }
+
+  .timeline-comment.current-user .timeline-comment-header {
+    background-color: #32302f;
+    border-color: #45403d;
+  }
+
+  .timeline-comment.current-user {
+    border-color: #45403d;
+  }
+
+  .timeline-comment.current-user .timeline-comment-label {
+    border-color: #45403d;
+  }
+
+  .timeline-comment-wrapper .timeline-comment.current-user::before {
+    border-width: 8px;
+    border-right-color: #45403d;
+  }
+
+  .timeline-comment-label {
+    border-color: #45403d;
+  }
+
+  .comment-reactions.has-reactions {
+    border-color: #45403d;
+  }
+
+  .reaction-summary-item {
+    border-color: #45403d;
+  }
+
+  .timeline-commits .commit-message > code a {
+    color: #7daea3;
+  }
+
+  .discussion-timeline::before {
+    width: 1px;
+    background-color: #45403d;
+  }
+
+  .discussion-timeline-actions {
+    background-color: #292828;
+    border: 0;
+  }
+
+  .discussion-item-ref-title .title-link {
+    color: #7daea3;
+  }
+
+  .discussion-item-entity {
+    color: #68948a;
+  }
+
+  .discussion-item + .discussion-item {
+    border-color: #45403d;
+  }
+
+  .discussion-sidebar-item + .discussion-sidebar-item {
+    border-color: #45403d;
+  }
+
+  .discussion-item-icon {
+    color: #7daea3;
+    background-color: #32302f;
+    border-color: #45403d;
+  }
+
+  .discussion-item + .discussion-item-review {
+    border-color: #45403d;
+  }
+
+  .discussion-item-review .file-header {
+    background-color: #292828;
+    border-color: #45403d;
+  }
+
+  .discussion-item-review + .discussion-item {
+    border-top: 1px solid #45403d;
+  }
+
+  .discussion-item-review .blob-wrapper {
+    border-color: #45403d;
+  }
+
+  .review-comment-contents::after,
+  .review-comment.is-comment-editing::after {
+    background-color: #45403d;
+  }
+
+  .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {
+    background: #32302f;
+  }
+
+  .new-discussion-timeline .previewable-comment-form .comment-body {
+    border-color: #45403d;
+  }
+
+  .new-discussion-timeline .closed-banner {
+    background: #45403d;
+    border-bottom: 18px solid #292828;
+  }
+
+  .suggester {
+    background: #32302f;
+    border-color: #45403d;
+  }
+
+  .suggester li {
+    border-color: #45403d;
+  }
+
+  .tabnav {
+    border-color: #45403d;
+  }
+
+  .tabnav-tab.selected {
+    color: #d4be98;
+    border-color: #45403d;
+  }
+
+  .previewable-comment-form textarea {
+    background-color: #292828;
+  }
+
+  .input-contrast:focus {
+    background: #1c1c1c;
+  }
+
+  .upload-enabled textarea {
+    border-color: #45403d;
+  }
+
+  .drag-and-drop {
+    background-color: #292828;
+    border-color: #45403d;
+  }
+
+  .commit-icon .octicon {
+    background-color: #292828;
+  }
+
+  .issues-listing .table-list-issues .navigation-focus {
+    background-color: #1c1c1c;
+  }
+
+  .branch-action-state-clean .branch-action-body::after {
+    border-right-color: #8f9a52;
+  }
+
+  .branch-action-state-unstable .branch-action-body::after {
+    border-right-color: #c18f41;
+  }
+
+  .branch-action-body {
+    background-color: #292828;
+  }
+
+  .branch-action-body .merge-message,
+  .branch-action-body .merge-branch-form {
+    background-color: #32302f;
+    border-top: solid 1px #45403d;
+  }
+
+  .branch-action-state-merged .branch-action-body {
+    border-color: #7c6f64;
+  }
+
+  .merge-status-list {
+    border-color: #45403d;
+  }
+
+  .merge-status-item {
+    background-color: #32302f;
+    border-color: #45403d;
+  }
+
+  .branch-group-heading {
+    background: #32302f;
+    border-color: #45403d;
+  }
+
+  .branch-action-item + .branch-action-item {
+    border-color: #45403d;
+  }
+
+  .status-heading {
+    color: #68948a;
+  }
+
+  /* Site | Issue Tab */
+
+  .Box-row--focus-gray.navigation-focus {
+    background-color: #292828;
+  }
+
+  .Box-row:first-of-type {
+    border-color: #45403d;
+  }
+
+  .Box-row {
+    border-color: #45403d;
+  }
+
+  a.Box-row-link.h4.js-navigation-open {
+    color: #68948a;
+  }
+
+  /* Code Tab | Branches */
+
+  .branch-summary,
+  .branch-group-heading + .branch-summary,
+  .branch-summary {
+    border-color: #45403d;
+  }
+
+  .branch-a-b-count .meter {
+    background-color: #32302f;
+  }
+
+  .branch-a-b-count .count-half:last-child {
+    border-color: #45403d;
+  }
+
+  .count-value.count-behind {
+    color: #b85651;
+  }
+
+  .count-value.count-ahead {
+    color: #72966c;
+  }
+
+  a.branch-name {
+    color: inherit;
+  }
+
+  .table-of-contents li + li {
+    border-color: #45403d;
+  }
+
+  .commit-desc + .commit-branches {
+    border-color: #45403d;
+  }
+
+  /* File Changed | Compare | Reviews */
+
+  .diffbar {
+    background-color: #292828;
+  }
+
+  .diff-table tr:not(:last-child) .line-comments {
+    border-color: #45403d;
+  }
+
+  .pr-toolbar {
+    background-color: #292828;
+  }
+
+  .range-editor {
+    background-color: #292828;
+    border-color: #45403d;
+  }
+
+  .compare-pr-placeholder {
+    background-color: #292828;
+    border-color: #c18f41;
+  }
+
+  ul.comparison-list {
+    background: #292828;
+    border-color: #45403d;
+  }
+
+  ul.comparison-list > li.title {
+    color: #a89984;
+    background: #32302f;
+  }
+
+  ul.comparison-list > li {
+    border-color: #45403d;
+  }
+
+  .file-diff-split .empty-cell {
+    background-color: #292828;
+    border-right-color: #45403d;
+  }
+
+  .feature-callout-octicon {
+    border-color: #45403d;
+  }
+
+  .feature-callout {
+    border-color: #45403d;
+  }
+
+  .review-thread {
+    border-color: #45403d;
+  }
+
+  .review-thread-reply {
+    background-color: #32302f;
+    border-color: #45403d;
+  }
+
+  .review-thread-reply .inline-comment-form {
+    background-color: #292828;
+  }
+
+  .review-comment .reaction-summary-item:not(.add-reaction-btn) {
+    border-color: #45403d;
+  }
+
+  .last-review-thread {
+    border-color: #45403d;
+  }
+
+  .inline-comment-form {
+    border-color: #45403d;
+  }
+
+  /* Release & Tags */
+
+  .release-timeline {
+    border-color: #45403d;
+    border-width: 1px;
+  }
+
+  .release-body {
+    border-color: #45403d;
+    border-width: 1px;
+  }
+
+  .releases-tag-list {
+    border-color: #45403d;
+  }
+
+  .releases-tag-list tr {
+    border-color: #45403d;
+  }
+
+  .release-show {
+    border-color: #45403d;
+  }
+
+  .tabnav-extra {
+    padding-right: 15px;
+    color: #a89984;
+  }
+
+  .tag-info h3 a .tag-name {
+    color: #68948a;
+  }
+
+  .release-downloads {
+    border-color: #45403d;
+  }
+
+  .release-downloads li {
+    border-color: #45403d;
+  }
+
+  /* Commits Tab */
+
+  .commit-group-title .octicon-git-commit {
+    margin-right: 17px;
+    color: #45403d;
+    background: #292828;
+  }
+
+  .commits-listing::before {
+    background-color: #45403d;
+  }
+
+  /* Nav */
+
+  .subnav-item {
+    border-color: #45403d;
+  }
+
+  .subnav-item:hover,
+  .subnav-item:focus {
+    background-color: #1c1c1c;
+  }
+
+  /* Repo Wiki Tab */
+
+  .blankslate {
+    background-color: #1c1c1c;
+    border-color: #45403d;
+    box-shadow: none;
+  }
+
+  .wiki-wrapper .wiki-auxiliary-content {
+    background: #32302f;
+  }
+
+  .wiki-rightbar .boxed-group.collapsed > h3 {
+    border-color: #45403d;
+  }
+
+  .wiki-wrapper .wiki-auxiliary-content-no-bg {
+    background: #292828;
+  }
+
+  .wiki-wrapper .wiki-custom-sidebar {
+    border-color: #45403d;
+  }
+
+  /* Repo Project Tab */
+
+  .border {
+    border-color: #45403d !important;
+  }
+
+  .bg-gray {
+    background-color: #292828 !important;
+  }
+
+  .project-header {
+    background-color: #292828;
+  }
+
+  .project-columns {
+    background-color: #292828;
+  }
+
+  .bg-white {
+    background-color: #32302f !important;
+  }
+
+  .bg-gray-light {
+    background-color: #292828 !important;
+  }
+
+  /* Repo Pulse Tab */
+
+  .pulse-graph:first-child {
+    border-color: #45403d;
+  }
+
+  .pulse-graph {
+    border-bottom-color: #45403d;
+  }
+
+  .conversation-list-heading .inner {
+    background: #292828;
+  }
+
+  .conversation-list-heading {
+    border-color: #45403d;
+  }
+
+  .simple-conversation-list > li {
+    border-color: #45403d;
+  }
+
+  .summary-stats li {
+    border-left-color: #45403d;
+  }
+
+  .summary-stats li .num {
+    color: #7daea3;
+  }
+
+  .summary-stats li a:hover {
+    background: #1c1c1c;
+  }
+
+  .diffstat-summary strong {
+    color: #7daea3;
+  }
+
+  .axis line {
+    stroke: #45403d;
+  }
+
+  .subhead {
+    border: 0;
+  }
+
+  /* Repo Graph | Contributors */
+
+  .tint-box {
+    background: #292828;
+  }
+
+  .capped-card {
+    border-color: #45403d;
+  }
+
+  .capped-card-content {
+    background: #292828;
+  }
+
+  .graphs .area {
+    fill: #68948a;
+  }
+
+  .capped-card h3 {
+    border-color: #45403d;
+  }
+
+  /* Repo Graph | Punch Card */
+
+  .day-name {
+    fill: #7daea3;
+  }
+
+  circle.day {
+    fill: #7daea3;
+    stroke-width: 0;
+  }
+
+  :not(img) text,
+  circle.day {
+    fill: #7daea3;
+  }
+
+  line.axis {
+    stroke: #45403d;
+  }
+
+  line.axis.even {
+    stroke: #45403d;
+  }
+
+  :not(img) text,
+  circle.day {
+    fill: #7daea3;
+  }
+
+  /* Repo Graph | Traffic */
+
+  table.capped-list td {
+    border-color: #45403d;
+  }
+
+  table.capped-list th {
+    border-color: #45403d;
+  }
+
+  table.capped-list tr:nth-child(even) {
+    background-color: #32302f;
+  }
+
+  /* Repo Graph | Code Frequency */
+
+  .code-frequency .addition {
+    fill: #72966c;
+  }
+
+  .code-frequency .deletion {
+    fill: #b85651;
+  }
+
+  .cadd {
+    font-weight: bold;
+    color: #72966c;
+  }
+
+  .cdel {
+    font-weight: bold;
+    color: #b85651;
+  }
+
+  .graphs .dir {
+    color: #a89984;
+  }
+
+  /* Repo Settings Tab */
+
+  .menu {
+    margin-bottom: 15px;
+    list-style: none;
+    background-color: #292828;
+    border: 1px solid #45403d;
+    border-radius: 3px;
+  }
+
+  .menu-item {
+    text-shadow: none;
+    border-bottom: 1px solid #45403d;
+  }
+
+  .menu-item:hover {
+    background-color: #1c1c1c;
+  }
+
+  .menu-item.selected {
+    color: #d4be98;
+    background-color: #1c1c1c;
+  }
+
+  .form-group .form-control {
+    background-color: #1c1c1c;
+  }
+
+  hr,
+  .rule {
+    border-bottom: 1px solid #45403d;
+  }
+
+  .boxed-group.dangerzone > h3 {
+    text-shadow: none;
+    border-color: #b85651;
+  }
+
+  .integrations-callout-standalone .integration-settings-callout {
+    border-color: #45403d;
+  }
+
+  /* Profile */
+
+  .border-top {
+    border-color: #45403d !important;
+  }
+
+  .profilecols .filter-bar {
+    background-color: #292828;
+  }
+
+  .pinned-repo-list-item {
+    border-color: #45403d;
+  }
+
+  .pinned-repo-filters {
+    border-color: #45403d;
+  }
+
+  .user-profile-nav {
+    background-color: #32302f;
+    border-color: #45403d;
+  }
+
+  .border-gray-dark {
+    border-color: #45403d !important;
+  }
+
+  .underline-nav-item.selected {
+    color: #d4be98;
+  }
+
+  .user-profile-sticky-bar::after {
+    background-color: #32302f;
+    border-color: #45403d;
+  }
+
+  .underline-nav-item:hover {
+    color: #68948a;
+  }
+
+  .profile-timeline-card-wrapper {
+    border: 0;
+  }
+
+  .profile-timeline.discussion-timeline::before {
+    left: 11px;
+    background-color: #45403d;
+  }
+
+  .profile-timeline.discussion-timeline .profile-timeline-month-heading::after {
+    background-color: #45403d;
+  }
+
+  .profile-rollup-wrapper + .profile-rollup-wrapper {
+    border-color: #45403d;
+  }
+
+  /* Profile | Contribution */
+
+  #contributions-calendar rect[fill='#ddc7a1'] {
+    fill: #1c1c1c;
+  }
+
+  /* Profile | Repo Tab */
+
+  .profilecols .filter-bar .filter-selected {
+    color: #7daea3;
+  }
+
+  /* Notification */
+
+  .list-group-item.navigation-focus {
+    background-color: #1c1c1c;
+  }
+
+  .list-group-item-link {
+    color: #ddc7a1;
+  }
+
+  .boxed-group-list > li {
+    border-color: #45403d;
+  }
+
+  .flash {
+    color: white;
+    background-color: #45403d;
+    border-color: #68948a;
+  }
+
+  /* Organisation */
+
+  .org-name {
+    color: #d4be98;
+  }
+
+  .orghead {
+    background-color: #1c1c1c;
+    border-color: #45403d;
+  }
+
+  .simple-box {
+    background-color: #292828;
+    border-color: #45403d;
+  }
+
+  .org-module-link {
+    color: #68948a;
+  }
+
+  .member-username {
+    color: #68948a;
+  }
+
+  .org-link {
+    color: #68948a;
+  }
+
+  .subnav-bordered {
+    border-color: #45403d;
+  }
+
+  .org-module-title {
+    border-color: #45403d;
+  }
+
+  .member-row {
+    border-color: #45403d;
+  }
+
+  .pagehead-tabs-item.selected {
+    color: #d4be98;
+    background-color: #292828;
+    border-color: #bd6f3e #45403d transparent;
+  }
+
+  /* Create Organisation */
+
+  .setup-header {
+    text-shadow: none;
+  }
+
+  .steps {
+    border-color: #45403d;
+  }
+
+  .steps li {
+    background-color: #292828;
+    border-color: #45403d;
+  }
+
+  .steps li.current {
+    color: #a89984;
+    background-color: #32302f;
+  }
+
+  .setup-info-module {
+    background-color: #292828;
+    border-color: #45403d;
+    box-shadow: none;
+  }
+
+  .setup-info-module h2 {
+    border-color: #45403d;
+  }
+
+  .plan-choice.open,
+  .plan-choice.selected {
+    background-color: #292828;
+  }
+
+  .plan-choice {
+    background-color: #292828;
+    border-color: #45403d;
+  }
+
+  /* Personal Settings (Global) */
+
+  .menu-heading {
+    color: #d4be98;
+    background-color: #32302f;
+    border-color: #45403d;
+  }
+
+  .listgroup {
+    border-color: #45403d;
+  }
+
+  .listgroup-item + .listgroup-item {
+    border-color: #45403d;
+  }
+
+  .oauth-border {
+    border-color: #45403d;
+  }
+
+  .saved-reply-form {
+    border-color: #45403d;
+  }
+
+  .user-key-badge {
+    border-color: #45403d;
+  }
+
+  dl.new-email-form {
+    border-color: #45403d;
+  }
+
+  .Subhead {
+    border-color: #45403d;
+  }
+
+  /* Settings | Security */
+
+  li.session-device.session-current,
+  li.session-device {
+    background-color: #292828;
+  }
+
+  .mute,
+  .text-gray-dark {
+    color: #c5b18d !important;
+  }
+
+  .boxed-group-list > li:first-child {
+    border-color: #45403d;
+  }
+
+  .boxed-group-inner .help {
+    border-color: #45403d;
+  }
+
+  .auth-form-header {
+    background-color: #32302f;
+    border-color: #45403d;
+  }
+
+  /* Settings | Billing */
+
+  .billing-section {
+    border-color: #45403d;
+  }
+
+  .billing-section .section-content {
+    color: #a89984;
+  }
+
+  .radio-label {
+    color: #666;
+  }
+
+  /* Modal */
+
+  .facebox-popup {
+    background-color: #292828;
+    border: 1px solid #45403d;
+  }
+
+  .facebox-alert {
+    color: #a89984;
+    background-color: #32302f;
+    border-color: #5a524c;
+  }
+
+  .facebox-header {
+    border-color: #45403d;
+  }
+
+  .facebox-footer {
+    margin: 0 -15px -15;
+    background: #32302f;
+  }
+
+  .facebox-footer {
+    background: #32302f;
+    border-color: #45403d;
+  }
+
+  /* Scrollbar */
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #32302f;
+    border-radius: 0;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #ddc7a1;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #292828;
+  }
+
+  /* Search Results */
+
+  .repo-list-item {
+    border-color: #45403d;
+  }
+
+  .codesearch-results .repo-list-name em,
+  .codesearch-results .repo-list-description em {
+    background-color: #32302f;
+  }
+
+  .participation-graph rect {
+    fill: #32302f;
+  }
+
+  .code-list .file-box {
+    border-color: #45403d;
+  }
+
+  .code-list .code-list-item + .code-list-item {
+    border-color: #45403d;
+  }
+
+  .code-list .language {
+    color: #a89984;
+  }
+
+  .codesearch-aside .menu .octicon {
+    color: #7daea3;
+  }
+
+  .codesearch-aside .filter-list {
+    border-color: #45403d;
+  }
+
+  .codesearch-aside .filter-list li span.bar {
+    background: #32302f;
+  }
+
+  .filter-item:hover {
+    background-color: #32302f;
+  }
+
+  /* Helper */
+
+  .timeline-commits .hidden-text-expander .ellipsis-expander {
+    color: #7daea3;
+    background: #32302f;
+  }
+
+  .hidden-text-expander a,
+  .ellipsis-expander {
+    color: #7daea3;
+    background: #32302f;
+  }
+
+  /* Experimental | Enchancement */
+
+  /* Blob Minus */
+
+  .blob-num-deletion {
+    background-color: #d3869b;
+  }
+
+  .blob-code-deletion {
+    background-color: #292828;
+    text-decoration: line-through;
+    color: #d3869b;
+  }
+
+  /* Blob Plus */
+
+  .blob-num-addition {
+    background-color: #d4be98;
+  }
+
+  .blob-code-addition {
+    background-color: #292828;
+  }
+
+  /* End of Experimental */
+
+  /* GitHub Gists */
+
+  .header-logo-wordmark {
+    color: #d4be98;
+  }
+
+  .gist-snippet-meta .description {
+    color: #7c6f64;
+  }
+
+  /* Rework Buttons | Icons */
+
+  .ajax-pagination-form .ajax-pagination-btn {
+    color: #a89984;
+    background: #32302f;
+    border-color: #45403d;
+  }
+
+  .ajax-pagination-form .ajax-pagination-btn:hover {
+    background-color: #1c1c1c;
+  }
+
+  .btn-outline:disabled,
+  .btn-outline:disabled:hover,
+  .btn-outline.disabled,
+  .btn-outline.disabled:hover {
+    border-color: #45403d;
+  }
+
+  .btn-octicon {
+    color: #7daea3;
+  }
+
+  .toolbar-item {
+    color: #7daea3;
+  }
+
+  .toolbar-item .menu-target {
+    color: #7daea3;
+  }
+
+  .timeline-comment-actions {
+    color: #7daea3;
+  }
+
+  .discussion-sidebar-toggle .octicon {
+    color: #7daea3;
+  }
+
+  /* Github Pricing */
+
+  .shade-gradient {
+    background-image: none;
+  }
+
+  .display-heading-1,
+  .display-heading-2,
+  .display-heading-3,
+  .display-heading-4 {
+    color: #d4be98;
+  }
+
+  .bg-white {
+    background-color: #292828 !important;
+  }
+
+  .pricing-card {
+    background-color: #292828;
+    border-color: #45403d;
+    box-shadow: none;
+  }
+
+  .pricing-card-vertical .pricing-card-name {
+    border-color: #45403d;
+  }
+
+  .pricing-card-vertical .pricing-card-cta {
+    border-color: #45403d;
+  }
+
+  /* GitHub Explore */
+
+  .sort-bar {
+    border-color: #45403d;
+  }
+
+  .pagehead-nav-item {
+    color: #68948a;
+  }
+
+  .pagehead-nav-item:hover {
+    color: #7daea3;
+  }
+
+  .pagehead-nav-item.selected {
+    color: #7daea3;
+    border-color: #d8a657;
+  }
+
+  .pagehead.explore-head {
+    border-bottom-color: #45403d;
+  }
+
+  .exploregrid-item-title {
+    color: #d4be98;
+  }
+
+  .exploregrid-item {
+    color: #7daea3;
+    border-color: #45403d;
+    box-shadow: none;
+  }
+
+  .thread-subscription-status {
+    background-color: #292828;
+    border: 1px solid #45403d;
+  }
+
+  .explore-section {
+    border-color: #45403d;
+  }
+
+  .explore-section:nth-child(even) {
+    background: #32302f;
+  }
+
+  .explore-collection h2 {
+    color: #d4be98;
+  }
+
+  .repo-collection > ul {
+    background: #1c1c1c;
+    border-color: #45403d;
+  }
+
+  .showcase-page-header {
+    border-color: #45403d;
+  }
+
+  .showcase-page-repo-list {
+    border-color: #45403d;
+  }
+
+  .showcase-page-pattern::after {
+    background: none #292828;
+  }
+
+  .intgrs-lstng-item {
+    border-color: #45403d;
+  }
+
+  /* GitHub Blog */
+
+  .blog-title {
+    color: #d4be98;
+  }
+
+  /* Octotree Addon */
+
+  .octotree_github_sidebar {
+    background-color: #292828;
+    color: #d4be98;
+  }
+
+  .octotree_github_sidebar
+    .octotree_views
+    .octotree_view
+    .octotree_view_header {
+    background-color: #292828;
+    border-bottom: 1px solid #45403d;
+    background-image: none;
+  }
+
+  .octotree_views .octotree_view .octotree_view_header {
+    text-shadow: none;
+  }
+
+  .octotree_github_sidebar input,
+  .octotree_github_sidebar textarea {
+    background-color: #1c1c1c;
+    border: 1px solid #45403d;
+    padding: 2px;
+    color: #d4be98;
+  }
+
+  .octotree_github_sidebar
+    .octotree_views
+    .octotree_treeview
+    .jstree-default
+    .jstree-wholerow-clicked {
+    background-color: #32302f;
+  }
+
+  .octotree_github_sidebar
+    .octotree_views
+    .octotree_treeview
+    .jstree-default
+    .jstree-wholerow-hovered {
+    background-color: #32302f;
+  }
+
+  .octotree_sidebar {
+    border-color: #45403d;
+  }
+
+  .octotree_github_sidebar a.octotree_toggle > span::after,
+  .octotree_github_sidebar a.octotree_opts {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+  }
+
+  /* End */
+}

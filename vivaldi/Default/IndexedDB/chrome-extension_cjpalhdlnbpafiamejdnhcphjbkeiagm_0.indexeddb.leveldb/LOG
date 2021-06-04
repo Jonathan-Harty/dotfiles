@@ -1,0 +1,8 @@
+2021/06/03-20:28:44.055 98a6 Reusing MANIFEST /home/jonathan/.config/vivaldi/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
+2021/06/03-20:28:44.055 98a6 Recovering log #49
+2021/06/03-20:28:44.055 98a6 Reusing old log /home/jonathan/.config/vivaldi/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000049.log 
+2021/06/03-20:28:46.060 98a3 Level-0 table #53: started
+2021/06/03-20:28:46.060 98a3 Level-0 table #53: 0 bytes OK
+2021/06/03-20:28:46.064 98a3 Delete type=0 #49
+2021/06/03-20:28:46.064 98a3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/06/03-20:28:46.064 98a3 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

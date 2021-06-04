@@ -1,0 +1,10 @@
+[2021-05-30 23:29:32.532] [main] [info] update#setState idle
+[2021-05-30 23:30:02.534] [main] [info] update#setState checking for updates
+[2021-05-30 23:30:02.610] [main] [info] update#setState idle
+[2021-05-31 00:30:02.562] [main] [info] update#setState checking for updates
+[2021-05-31 00:30:02.912] [main] [info] update#setState idle
+[2021-05-31 01:30:02.575] [main] [info] update#setState checking for updates
+[2021-05-31 01:30:02.915] [main] [info] update#setState idle
+[2021-05-31 02:30:02.604] [main] [info] update#setState checking for updates
+[2021-05-31 02:30:02.914] [main] [info] update#setState idle
+[2021-05-31 17:13:06.164] [main] [error] [uncaught exception in main]: Error: SharedProcess: crashed (detail: killed)

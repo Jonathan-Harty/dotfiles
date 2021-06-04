@@ -1,0 +1,10 @@
+[2021-06-02 20:22:08.982] [sharedprocess] [info] Deleted from disk dart-code.flutter /home/jonathan/.vscode/extensions/dart-code.flutter-3.22.0
+[2021-06-02 20:22:09.004] [sharedprocess] [info] Deleted from disk dart-code.dart-code /home/jonathan/.vscode/extensions/dart-code.dart-code-3.22.0
+[2021-06-02 20:22:09.116] [sharedprocess] [info] Deleted from disk ms-vsliveshare.vsliveshare /home/jonathan/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.4272
+[2021-06-02 20:22:10.931] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2021-06-02 20:22:13.399] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/jonathan/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.6.0
+[2021-06-02 20:22:14.615] [sharedprocess] [info] Extracted extension to /home/jonathan/.vscode/extensions/.e32688ac-acfe-4300-af73-46f61694dec1: ms-python.vscode-pylance
+[2021-06-02 20:22:14.626] [sharedprocess] [info] Renamed to /home/jonathan/.vscode/extensions/ms-python.vscode-pylance-2021.6.0
+[2021-06-02 20:22:14.627] [sharedprocess] [info] Installation completed. ms-python.vscode-pylance
+[2021-06-02 20:22:14.682] [sharedprocess] [info] Extensions installed successfully: ms-python.vscode-pylance
+[2021-06-02 20:22:48.695] [sharedprocess] [info] Starting to clean up unused language packs.

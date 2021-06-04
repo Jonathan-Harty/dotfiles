@@ -1,0 +1,90 @@
+Looking for git in: git
+Using git 2.31.1 from git
+> git rev-parse --git-dir
+Open repository: /home/jonathan/nord-awesome
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/jonathan/nord-awesome/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :configuration/keys/global.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/configuration/keys/global.lua
+> git cat-file -s d42d4f6952c38cbc2588a57f5f9eade76a9d182a
+> git config --global user.email
+> git config --global user.name
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/jonathan/nord-awesome/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show -s --format=%an <%ae> [%ai] dfb620fa00f3782e8e023563e8654191b4edd1e0
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :layout/left-panel/action-bar.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/layout/left-panel/action-bar.lua
+> git cat-file -s 7f7cec85d71e020e5940b7227959217184d369ac
+> git check-ignore -v -z --stdin
+> git show --textconv :layout/left-panel/dashboard/init.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/layout/left-panel/dashboard/init.lua
+> git cat-file -s 0e24cc5659e74fae2e4e92d955dd4dd6724851fd
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :widget/material/clickable-container.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/widget/material/clickable-container.lua
+> git cat-file -s 14b79c71f4decb7319e75f5f1bb18c8b2f3516f0
+> git check-ignore -v -z --stdin
+> git show --textconv :layout/left-panel/init.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/layout/left-panel/init.lua
+> git cat-file -s 5b24aa6d7947c64d5418be2598c10282ab0f7a10
+> git show --textconv :layout/left-panel/action-bar.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/layout/left-panel/action-bar.lua
+> git cat-file -s 7f7cec85d71e020e5940b7227959217184d369ac
+> git check-ignore -v -z --stdin
+> git show --textconv :widget/task-list.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/widget/task-list.lua
+> git cat-file -s a5f0d04a7f6c617c2fff20303640aa91d4804959
+> git show --textconv :widget/tag-list.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/widget/tag-list.lua
+> git cat-file -s 6891eb8a6e13f58bc57848b29b36c083199043f7
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :theme/icons/init.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/theme/icons/init.lua
+> git cat-file -s c80cca9ce22c8fd0d71ab6ab7292e78c5e4278b9
+> git show --textconv :layout/top-panel.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/layout/top-panel.lua
+> git cat-file -s 7577efd168cfc781188b7e0d83405a7bbd76ea31
+> git show --textconv :layout/left-panel/action-bar.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/layout/left-panel/action-bar.lua
+> git cat-file -s 7f7cec85d71e020e5940b7227959217184d369ac
+> git show --textconv :layout/left-panel/dashboard/init.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/layout/left-panel/dashboard/init.lua
+> git cat-file -s 0e24cc5659e74fae2e4e92d955dd4dd6724851fd
+> git check-ignore -v -z --stdin
+> git show --textconv :theme/icons/init.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/theme/icons/init.lua
+> git cat-file -s c80cca9ce22c8fd0d71ab6ab7292e78c5e4278b9
+> git show --textconv :configuration/tags/init.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/configuration/tags/init.lua
+> git cat-file -s 380409534a0c240315803ae1d4114f61cbfabe71
+> git check-ignore -v -z --stdin
+> git show --textconv :rc.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/rc.lua
+> git cat-file -s baf9245101e7de1091fbfa070f857435f9e5221e
+> git check-ignore -v -z --stdin
+> git show --textconv :configuration/tags/init.lua
+> git ls-files --stage -- /home/jonathan/nord-awesome/configuration/tags/init.lua
+> git cat-file -s 380409534a0c240315803ae1d4114f61cbfabe71
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/jonathan/nord-awesome/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template

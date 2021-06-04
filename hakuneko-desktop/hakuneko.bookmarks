@@ -1,0 +1,22 @@
+[
+  {
+    "title": {
+      "connector": "NineMangaEN",
+      "manga": "One Piece"
+    },
+    "key": {
+      "connector": "ninemanga-en",
+      "manga": "/manga/One+Piece.html"
+    }
+  },
+  {
+    "title": {
+      "connector": "One-Punch Man",
+      "manga": "One-Punch Man"
+    },
+    "key": {
+      "connector": "onepunchman",
+      "manga": "https://onepunch-man.com"
+    }
+  }
+]

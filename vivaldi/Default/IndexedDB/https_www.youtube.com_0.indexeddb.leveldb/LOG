@@ -1,0 +1,27 @@
+2021/05/16-03:22:53.499 39de3 Reusing MANIFEST /home/jonathan/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/16-03:22:53.499 39de3 Recovering log #137
+2021/05/16-03:22:53.502 39de3 Reusing old log /home/jonathan/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000137.log 
+2021/05/16-03:22:55.927 39de8 Level-0 table #142: started
+2021/05/16-03:22:55.932 39de8 Level-0 table #142: 250185 bytes OK
+2021/05/16-03:22:55.936 39de8 Delete type=0 #137
+2021/05/16-03:22:55.936 39de8 Manual compaction at level-0 from '\x00%\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00&\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/05/16-03:22:55.936 39de8 Manual compaction at level-1 from '\x00%\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00&\x00\x00\x00' @ 0 : 0; will stop at '\x00%\x03\x1f\x04\x02\x03\x00\x00\x00\x00\x00\x00\xf0?\x03\x00 \x0eVD\x97wB\x00\x03\x00\x00\x00\x00\x00\x80@@' @ 145225 : 1
+2021/05/16-03:22:55.936 39de8 Compacting 1@1 + 1@2 files
+2021/05/16-03:22:55.940 39de8 Generated table #143@1: 427 keys, 26183 bytes
+2021/05/16-03:22:55.940 39de8 Compacted 1@1 + 1@2 files => 26183 bytes
+2021/05/16-03:22:55.944 39de8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/16-03:22:55.944 39de8 Delete type=2 #142
+2021/05/16-03:22:55.944 39de8 Manual compaction at level-1 from '\x00%\x03\x1f\x04\x02\x03\x00\x00\x00\x00\x00\x00\xf0?\x03\x00 \x0eVD\x97wB\x00\x03\x00\x00\x00\x00\x00\x80@@' @ 145225 : 1 .. '\x00&\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/05/16-03:25:59.181 39de4 Level-0 table #145: started
+2021/05/16-03:25:59.199 39de4 Level-0 table #145: 124450 bytes OK
+2021/05/16-03:25:59.202 39de4 Delete type=2 #139
+2021/05/16-03:25:59.202 39de4 Delete type=0 #141
+2021/05/16-03:25:59.203 39de4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/16-03:25:59.203 39de4 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00&\x03\x1f\x04\x02\x03\x00\x00\x00\x00\x00\x00\xf0?\x03\x00\xe0\xb9VD\x97wB\x00\x03\x00\x00\x00\x00\x00\x00\x10@' @ 146080 : 1
+2021/05/16-03:25:59.203 39de4 Compacting 1@1 + 1@2 files
+2021/05/16-03:25:59.206 39de4 Generated table #146@1: 298 keys, 12059 bytes
+2021/05/16-03:25:59.206 39de4 Compacted 1@1 + 1@2 files => 12059 bytes
+2021/05/16-03:25:59.210 39de4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/16-03:25:59.210 39de4 Delete type=2 #145
+2021/05/16-03:25:59.210 39de4 Delete type=2 #143
+2021/05/16-03:25:59.210 39de4 Manual compaction at level-1 from '\x00&\x03\x1f\x04\x02\x03\x00\x00\x00\x00\x00\x00\xf0?\x03\x00\xe0\xb9VD\x97wB\x00\x03\x00\x00\x00\x00\x00\x00\x10@' @ 146080 : 1 .. (end); will stop at (end)

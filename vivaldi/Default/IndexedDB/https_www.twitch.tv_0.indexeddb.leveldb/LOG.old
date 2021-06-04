@@ -1,0 +1,8 @@
+2021/04/30-22:30:50.732 3018 Reusing MANIFEST /home/jonathan/.config/vivaldi/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/30-22:30:50.732 3018 Recovering log #4
+2021/04/30-22:30:50.732 3018 Reusing old log /home/jonathan/.config/vivaldi/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/000004.log 
+2021/04/30-22:31:22.740 2c82 Level-0 table #8: started
+2021/04/30-22:31:22.740 2c82 Level-0 table #8: 0 bytes OK
+2021/04/30-22:31:22.760 2c82 Delete type=0 #4
+2021/04/30-22:31:22.760 2c82 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/30-22:31:22.760 2c82 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

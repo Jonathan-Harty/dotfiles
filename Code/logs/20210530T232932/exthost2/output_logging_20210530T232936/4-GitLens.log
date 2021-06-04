@@ -1,0 +1,1 @@
+[2021-05-31 05:39:30:192] [/home/jonathan/nord-awesome] Git Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 32,32:configuration/client/keys.lua • file configuration/client/keys.lua has only 27 lines • 6 ms 

@@ -1,0 +1,6 @@
+2021/05/16-03:22:52.835 39db9 Reusing MANIFEST /home/jonathan/.config/vivaldi/Default/Sync Data/LevelDB/MANIFEST-000001
+2021/05/16-03:22:52.835 39db9 Recovering log #275
+2021/05/16-03:22:52.837 39db9 Reusing old log /home/jonathan/.config/vivaldi/Default/Sync Data/LevelDB/000275.log 
+2021/05/16-03:25:27.194 39de4 Level-0 table #279: started
+2021/05/16-03:25:27.216 39de4 Level-0 table #279: 494449 bytes OK
+2021/05/16-03:25:27.223 39de4 Delete type=0 #275

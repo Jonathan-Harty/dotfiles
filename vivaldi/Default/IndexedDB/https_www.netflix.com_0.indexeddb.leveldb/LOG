@@ -1,0 +1,24 @@
+2021/05/10-23:11:08.201 12638 Reusing MANIFEST /home/jonathan/.config/vivaldi/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/10-23:11:08.201 12638 Recovering log #4
+2021/05/10-23:11:08.201 12638 Reusing old log /home/jonathan/.config/vivaldi/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000004.log 
+2021/05/11-00:01:29.826 17e6e Level-0 table #8: started
+2021/05/11-00:01:29.836 17e6e Level-0 table #8: 2305739 bytes OK
+2021/05/11-00:01:29.840 17e6e Delete type=0 #4
+2021/05/11-00:09:21.122 129a3 Compacting 1@1 + 1@2 files
+2021/05/11-00:09:21.128 129a3 Generated table #9@1: 67 keys, 14083 bytes
+2021/05/11-00:09:21.128 129a3 Compacted 1@1 + 1@2 files => 14083 bytes
+2021/05/11-00:09:21.134 129a3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/11-00:09:21.134 129a3 Delete type=2 #8
+2021/05/11-00:09:21.134 129a3 Delete type=2 #5
+2021/05/11-00:34:27.657 1cc33 Level-0 table #11: started
+2021/05/11-00:34:27.681 1cc33 Level-0 table #11: 1452744 bytes OK
+2021/05/11-00:34:27.685 1cc33 Delete type=0 #7
+2021/05/11-00:34:27.686 1cc33 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/11-00:34:27.686 1cc33 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x01\x13\x00I\x00S\x00_\x00P\x00U\x00S\x00H\x00_\x00E\x00N\x00A\x00B\x00L\x00E\x00D\x00_\x00K\x00E\x00Y' @ 11757 : 1
+2021/05/11-00:34:27.686 1cc33 Compacting 1@1 + 1@2 files
+2021/05/11-00:34:27.690 1cc33 Generated table #12@1: 64 keys, 9655 bytes
+2021/05/11-00:34:27.690 1cc33 Compacted 1@1 + 1@2 files => 9655 bytes
+2021/05/11-00:34:27.694 1cc33 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/11-00:34:27.694 1cc33 Delete type=2 #11
+2021/05/11-00:34:27.694 1cc33 Delete type=2 #9
+2021/05/11-00:34:27.694 1cc33 Manual compaction at level-1 from '\x00\x03\x01\x02\x01\x13\x00I\x00S\x00_\x00P\x00U\x00S\x00H\x00_\x00E\x00N\x00A\x00B\x00L\x00E\x00D\x00_\x00K\x00E\x00Y' @ 11757 : 1 .. (end); will stop at (end)

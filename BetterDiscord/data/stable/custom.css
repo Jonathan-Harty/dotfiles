@@ -1,0 +1,66 @@
+/**
+ * @name Gruvbox-Material
+ * @author Jonathan-Harty
+ * @version 0.0.1
+ * @description Discord Theme Using the Gruvbox Material Color Scheme
+ */
+
+:root {
+  --header-primary: #d4be98;
+  --header-secondary: #a89984;
+  --text-normal: #ddc7a1;
+  --text-muted: #7c6f64;
+  --text-link: #7daea3;
+  --channels-default: #928374;
+  --interactive-normal: #c5b18d;
+  --interactive-hover: #ddc7a1;
+  --interactive-active: #d4be98;
+  --interactive-muted: #45403d;
+  --background-primary: #383432;
+  --background-secondary: #292828;
+  --background-secondary-alt: #292828;
+  --background-tertiary: #1c1c1c;
+  --background-accent: #45403d;
+  --background-floating: #1c1c1c;
+  --background-modifier-hover: rgba(69, 64, 61, 0.16);
+  --background-modifier-active: rgba(69, 64, 61, 0.24);
+  --background-modifier-selected: rgba(69, 64, 61, 0.32);
+  --background-modifier-accent: hsla(38, 41%, 71%, 0.06);
+  --background-mentioned: rgba(231, 138, 78, 0.05);
+  --background-mentioned-hover: rgba(231, 138, 78, 0.08);
+  --background-message-hover: rgba(16, 16, 16, 0.07);
+  --background-help-warning: rgba(231, 138, 78, 0.1);
+  --background-help-info: rgba(125, 174, 163, 0.1);
+  --scrollbar-thin-thumb: #1c1c1c;
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: #1c1c1c;
+  --scrollbar-auto-track: #292828;
+  --scrollbar-auto-scrollbar-color-thumb: #1c1c1c;
+  --scrollbar-auto-scrollbar-color-track: #292828;
+  --elevation-stroke: 0 0 0 1px rgba(16, 16, 16, 0.15);
+  --elevation-low: 0 1px 0 rgba(16, 16, 16, 0.2),
+    0 1.5px 0 rgba(16, 16, 16, 0.05), 0 2px 0 rgba(16, 16, 16, 0.05);
+  --elevation-medium: 0 4px 4px rgba(16, 16, 16, 0.16);
+  --elevation-high: 0 8px 16px rgba(16, 16, 16, 0.24);
+  --logo-primary: #d4be98;
+  --focus-primary: #7daea3;
+  --radio-group-dot-foreground: #d3869b;
+  --guild-header-text-shadow: 0 1px 1px rgba(16, 16, 16, 0.4);
+  --channeltextarea-background: #45403d;
+  --activity-card-background: #1c1c1c;
+  --textbox-markdown-syntax: #928374;
+  --deprecated-card-bg: rgba(28, 28, 28, 0.6);
+  --deprecated-card-editable-bg: rgba(28, 28, 28, 0.3);
+  --deprecated-store-bg: #383432;
+  --deprecated-quickswitcher-input-background: #7c6f64;
+  --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+  --deprecated-text-input-bg: rgba(16, 16, 16, 0.1);
+  --deprecated-text-input-border: rgba(16, 16, 16, 0.3);
+  --deprecated-text-input-border-hover: #101010;
+  --deprecated-text-input-border-disabled: #1c1c1c;
+  --deprecated-text-input-prefix: #c5b18d;
+}
+
+.theme-dark .container-1D34oG {
+  background-color: #383432;
+}

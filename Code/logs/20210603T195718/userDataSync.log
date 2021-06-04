@@ -1,0 +1,488 @@
+[2021-06-03 19:57:19.446] [settingssync] [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+[2021-06-03 19:57:19.446] [settingssync] [info] Auto Sync is enabled.
+[2021-06-03 19:57:19.446] [settingssync] [info] Auto Sync: Suspended until auth token is available.
+[2021-06-03 19:57:21.584] [settingssync] [info] Auto Sync: Started
+[2021-06-03 19:57:21.584] [settingssync] [info] Auto Sync: Triggered by Interval
+[2021-06-03 19:57:22.027] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 19:57:22.056] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 19:57:22.069] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 19:57:22.140] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 19:57:22.196] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 19:57:22.197] [settingssync] [info] Sync done. Took 204ms
+[2021-06-03 19:57:52.812] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 19:57:52.907] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 19:57:52.908] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 19:57:52.911] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 19:57:52.962] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 19:57:53.034] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 19:57:53.035] [settingssync] [info] Sync done. Took 149ms
+[2021-06-03 19:58:10.364] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 19:58:10.459] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 19:58:10.461] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 19:58:10.462] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 19:58:10.513] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 19:58:10.578] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 19:58:10.578] [settingssync] [info] Sync done. Took 138ms
+[2021-06-03 19:58:22.702] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 19:58:22.784] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 19:58:22.785] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 19:58:22.787] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 19:58:22.832] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 19:58:22.900] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 19:58:22.901] [settingssync] [info] Sync done. Took 133ms
+[2021-06-03 19:58:40.020] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 19:58:40.104] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 19:58:40.105] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 19:58:40.106] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 19:58:40.154] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 19:58:40.221] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 19:58:40.222] [settingssync] [info] Sync done. Took 131ms
+[2021-06-03 19:58:56.617] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 19:58:56.716] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 19:58:56.717] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 19:58:56.719] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 19:58:56.777] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 19:58:56.855] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 19:58:56.855] [settingssync] [info] Sync done. Took 158ms
+[2021-06-03 19:59:08.133] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 19:59:08.222] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 19:59:08.223] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 19:59:08.226] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 19:59:08.284] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 19:59:08.362] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 19:59:08.362] [settingssync] [info] Sync done. Took 160ms
+[2021-06-03 20:00:45.086] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:00:45.174] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:00:45.175] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:00:45.176] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:00:45.230] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:00:45.299] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:00:45.299] [settingssync] [info] Sync done. Took 139ms
+[2021-06-03 20:01:44.764] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:01:44.851] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:01:44.852] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:01:44.853] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:01:44.912] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:01:44.981] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:01:44.982] [settingssync] [info] Sync done. Took 143ms
+[2021-06-03 20:02:25.521] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:02:25.608] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:02:25.610] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:02:25.611] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:02:25.671] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:02:25.739] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:02:25.739] [settingssync] [info] Sync done. Took 147ms
+[2021-06-03 20:02:53.341] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:02:53.447] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:02:53.448] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:02:53.450] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:02:53.513] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:02:53.584] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:02:53.584] [settingssync] [info] Sync done. Took 151ms
+[2021-06-03 20:03:58.825] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:03:58.915] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:03:58.916] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:03:58.917] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:03:58.978] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:03:59.047] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:03:59.048] [settingssync] [info] Sync done. Took 146ms
+[2021-06-03 20:04:12.128] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:04:12.228] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:04:12.229] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:04:12.230] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:04:12.284] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:04:12.352] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:04:12.352] [settingssync] [info] Sync done. Took 137ms
+[2021-06-03 20:04:28.678] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:04:28.761] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:04:28.762] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:04:28.764] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:04:28.819] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:04:28.880] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:04:28.881] [settingssync] [info] Sync done. Took 135ms
+[2021-06-03 20:04:40.577] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:04:40.657] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:04:40.658] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:04:40.659] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:04:40.714] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:04:40.772] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:04:40.772] [settingssync] [info] Sync done. Took 129ms
+[2021-06-03 20:05:25.472] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:05:25.551] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:05:25.552] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:05:25.553] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:05:25.614] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:05:25.683] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:05:25.683] [settingssync] [info] Sync done. Took 145ms
+[2021-06-03 20:05:36.463] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:05:36.543] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:05:36.544] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:05:36.545] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:05:36.601] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:05:36.661] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:05:36.661] [settingssync] [info] Sync done. Took 131ms
+[2021-06-03 20:05:58.448] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:05:58.532] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:05:58.533] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:05:58.534] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:05:58.592] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:05:58.652] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:05:58.653] [settingssync] [info] Sync done. Took 133ms
+[2021-06-03 20:06:17.195] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:06:17.280] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:06:17.281] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:06:17.282] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:06:17.338] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:06:17.397] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:06:17.398] [settingssync] [info] Sync done. Took 131ms
+[2021-06-03 20:06:30.358] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:06:30.440] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:06:30.441] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:06:30.442] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:06:30.490] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:06:30.549] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:06:30.550] [settingssync] [info] Sync done. Took 122ms
+[2021-06-03 20:06:41.407] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:06:41.498] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:06:41.499] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:06:41.500] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:06:41.556] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:06:41.615] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:06:41.616] [settingssync] [info] Sync done. Took 131ms
+[2021-06-03 20:06:55.045] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:06:55.126] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:06:55.127] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:06:55.128] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:06:55.184] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:06:55.244] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:06:55.244] [settingssync] [info] Sync done. Took 131ms
+[2021-06-03 20:07:10.795] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:07:10.878] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:07:10.879] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:07:10.881] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:07:10.936] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:07:10.994] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:07:10.995] [settingssync] [info] Sync done. Took 134ms
+[2021-06-03 20:07:22.380] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:07:22.467] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:07:22.468] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:07:22.469] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:07:22.525] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:07:22.598] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:07:22.600] [settingssync] [info] Sync done. Took 151ms
+[2021-06-03 20:08:06.278] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:08:06.358] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:08:06.359] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:08:06.361] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:08:06.415] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:08:06.470] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:08:06.470] [settingssync] [info] Sync done. Took 125ms
+[2021-06-03 20:08:17.744] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:08:17.825] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:08:17.827] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:08:17.828] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:08:17.881] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:08:17.941] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:08:17.941] [settingssync] [info] Sync done. Took 129ms
+[2021-06-03 20:08:32.062] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:08:32.152] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:08:32.153] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:08:32.155] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:08:32.207] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:08:32.268] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:08:32.268] [settingssync] [info] Sync done. Took 131ms
+[2021-06-03 20:09:00.038] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:09:00.117] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:09:00.118] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:09:00.119] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:09:00.174] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:09:00.232] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:09:00.232] [settingssync] [info] Sync done. Took 127ms
+[2021-06-03 20:09:17.413] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:09:17.508] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:09:17.509] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:09:17.510] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:09:17.568] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:09:17.627] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:09:17.628] [settingssync] [info] Sync done. Took 136ms
+[2021-06-03 20:09:44.870] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:09:44.946] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:09:44.947] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:09:44.949] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:09:45.002] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:09:45.061] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:09:45.061] [settingssync] [info] Sync done. Took 129ms
+[2021-06-03 20:10:06.326] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:10:06.403] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:10:06.404] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:10:06.406] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:10:06.453] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:10:06.509] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:10:06.509] [settingssync] [info] Sync done. Took 120ms
+[2021-06-03 20:11:01.882] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:11:01.975] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:11:01.976] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:11:01.977] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:11:02.034] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:11:02.100] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:11:02.100] [settingssync] [info] Sync done. Took 140ms
+[2021-06-03 20:11:28.847] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:11:28.939] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:11:28.940] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:11:28.941] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:11:28.993] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:11:29.054] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:11:29.054] [settingssync] [info] Sync done. Took 131ms
+[2021-06-03 20:12:01.600] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:12:01.684] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:12:01.685] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:12:01.687] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:12:01.740] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:12:01.800] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:12:01.801] [settingssync] [info] Sync done. Took 131ms
+[2021-06-03 20:12:20.460] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:12:20.537] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:12:20.537] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:12:20.538] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:12:20.593] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:12:20.655] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:12:20.656] [settingssync] [info] Sync done. Took 132ms
+[2021-06-03 20:12:38.358] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:12:38.449] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:12:38.450] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:12:38.452] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:12:38.505] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:12:38.567] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:12:38.567] [settingssync] [info] Sync done. Took 142ms
+[2021-06-03 20:12:58.658] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:12:58.738] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:12:58.739] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:12:58.741] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:12:58.790] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:12:58.850] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:12:58.851] [settingssync] [info] Sync done. Took 125ms
+[2021-06-03 20:13:12.854] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:13:12.938] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:13:12.939] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:13:12.940] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:13:12.994] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:13:13.055] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:13:13.056] [settingssync] [info] Sync done. Took 132ms
+[2021-06-03 20:13:34.287] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:13:34.374] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:13:34.375] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:13:34.377] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:13:34.430] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:13:34.490] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:13:34.490] [settingssync] [info] Sync done. Took 132ms
+[2021-06-03 20:13:57.983] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:13:58.069] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:13:58.070] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:13:58.071] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:13:58.120] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:13:58.180] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:13:58.180] [settingssync] [info] Sync done. Took 123ms
+[2021-06-03 20:14:27.172] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:14:27.250] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:14:27.251] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:14:27.252] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:14:27.305] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:14:27.365] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:14:27.366] [settingssync] [info] Sync done. Took 130ms
+[2021-06-03 20:14:38.451] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:14:38.528] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:14:38.529] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:14:38.530] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:14:38.583] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:14:38.642] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:14:38.643] [settingssync] [info] Sync done. Took 127ms
+[2021-06-03 20:14:57.328] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:14:57.418] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:14:57.419] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:14:57.420] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:14:57.471] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:14:57.531] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:14:57.532] [settingssync] [info] Sync done. Took 128ms
+[2021-06-03 20:15:25.269] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:15:25.355] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:15:25.356] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:15:25.357] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:15:25.410] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:15:25.470] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:15:25.471] [settingssync] [info] Sync done. Took 128ms
+[2021-06-03 20:16:57.579] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:16:57.659] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:16:57.660] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:16:57.661] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:16:57.717] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:16:57.777] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:16:57.778] [settingssync] [info] Sync done. Took 133ms
+[2021-06-03 20:17:26.009] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:17:26.115] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:17:26.116] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:17:26.117] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:17:26.166] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:17:26.229] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:17:26.229] [settingssync] [info] Sync done. Took 138ms
+[2021-06-03 20:17:49.027] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:17:49.108] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:17:49.109] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:17:49.110] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:17:49.165] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:17:49.226] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:17:49.226] [settingssync] [info] Sync done. Took 131ms
+[2021-06-03 20:18:24.866] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:18:24.945] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:18:24.946] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:18:24.947] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:18:25.000] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:18:25.062] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:18:25.062] [settingssync] [info] Sync done. Took 130ms
+[2021-06-03 20:18:36.855] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:18:36.937] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:18:36.938] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:18:36.939] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:18:36.988] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:18:37.051] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:18:37.051] [settingssync] [info] Sync done. Took 124ms
+[2021-06-03 20:19:01.946] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:19:02.034] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:19:02.035] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:19:02.036] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:19:02.088] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:19:02.146] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:19:02.146] [settingssync] [info] Sync done. Took 126ms
+[2021-06-03 20:19:30.110] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:19:30.204] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:19:30.205] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:19:30.206] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:19:30.257] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:19:30.315] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:19:30.315] [settingssync] [info] Sync done. Took 124ms
+[2021-06-03 20:19:51.748] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:19:51.831] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:19:51.832] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:19:51.833] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:19:51.886] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:19:51.943] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:19:51.944] [settingssync] [info] Sync done. Took 126ms
+[2021-06-03 20:20:31.206] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:20:31.289] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:20:31.291] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:20:31.292] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:20:31.342] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:20:31.402] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:20:31.402] [settingssync] [info] Sync done. Took 126ms
+[2021-06-03 20:20:48.763] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:20:48.841] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:20:48.841] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:20:48.842] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:20:48.894] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:20:48.952] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:20:48.953] [settingssync] [info] Sync done. Took 124ms
+[2021-06-03 20:21:02.704] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:21:02.780] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:21:02.781] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:21:02.783] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:21:02.838] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:21:02.895] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:21:02.895] [settingssync] [info] Sync done. Took 128ms
+[2021-06-03 20:21:19.968] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:21:20.054] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:21:20.055] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:21:20.056] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:21:20.110] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:21:20.166] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:21:20.166] [settingssync] [info] Sync done. Took 126ms
+[2021-06-03 20:21:33.186] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:21:33.269] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:21:33.270] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:21:33.271] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:21:33.323] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:21:33.380] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:21:33.381] [settingssync] [info] Sync done. Took 126ms
+[2021-06-03 20:21:54.128] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:21:54.210] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:21:54.211] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:21:54.212] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:21:54.264] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:21:54.322] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:21:54.322] [settingssync] [info] Sync done. Took 126ms
+[2021-06-03 20:22:17.522] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:22:17.637] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:22:17.639] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:22:17.640] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:22:17.696] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:22:17.754] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:22:17.754] [settingssync] [info] Sync done. Took 130ms
+[2021-06-03 20:23:05.695] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:23:05.777] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:23:05.777] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:23:05.778] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:23:05.834] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:23:05.891] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:23:05.891] [settingssync] [info] Sync done. Took 132ms
+[2021-06-03 20:23:49.091] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:23:49.181] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:23:49.182] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:23:49.184] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:23:49.236] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:23:49.294] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:23:49.295] [settingssync] [info] Sync done. Took 125ms
+[2021-06-03 20:24:13.541] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:24:13.639] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:24:13.640] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:24:13.641] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:24:13.690] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:24:13.747] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:24:13.747] [settingssync] [info] Sync done. Took 124ms
+[2021-06-03 20:25:05.813] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:25:05.901] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:25:05.902] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:25:05.903] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:25:05.959] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:25:06.017] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:25:06.017] [settingssync] [info] Sync done. Took 131ms
+[2021-06-03 20:25:26.349] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:25:26.433] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:25:26.434] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:25:26.435] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:25:26.490] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:25:26.548] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:25:26.548] [settingssync] [info] Sync done. Took 128ms
+[2021-06-03 20:25:58.897] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:25:58.977] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:25:58.978] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:25:58.980] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:25:59.035] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:25:59.092] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:25:59.093] [settingssync] [info] Sync done. Took 129ms
+[2021-06-03 20:27:09.531] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:27:09.607] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:27:09.608] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:27:09.609] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:27:09.666] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:27:09.728] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:27:09.728] [settingssync] [info] Sync done. Took 134ms
+[2021-06-03 20:28:09.603] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:28:09.702] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:28:09.703] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:28:09.704] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:28:09.760] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:28:09.815] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:28:09.816] [settingssync] [info] Sync done. Took 131ms
+[2021-06-03 20:28:24.782] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:28:24.858] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:28:24.859] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:28:24.860] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:28:24.909] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:28:24.968] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:28:24.969] [settingssync] [info] Sync done. Took 123ms
+[2021-06-03 20:29:11.758] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-06-03 20:29:11.838] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-06-03 20:29:11.839] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-06-03 20:29:11.840] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-06-03 20:29:11.895] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-06-03 20:29:11.954] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-06-03 20:29:11.955] [settingssync] [info] Sync done. Took 130ms
+[2021-06-03 20:29:47.295] [settingssync] [info] Auto Sync: Triggered by Activity

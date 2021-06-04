@@ -1,0 +1,161 @@
+/* ==UserStyle==
+@name           DuckDuckGO - Gruvbox Material
+@author         Jonathan Harty
+@namespace      url(http://www.w3.org/1999/xhtml);
+@description    A Gruvbox Material DuckDuckGo Theme.`
+@version        1.0.0
+@license        MIT
+==/UserStyle== */
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("duckduckgo.com") {
+  body {
+    color: #d4be98 !important;
+    background-color: #292828 !important;
+  }
+  .site-wrapper {
+    color: #d4be98 !important;
+    background-color: #292828 !important;
+  }
+
+  span {
+    color: #d4be98 !important;
+  }
+
+  .header-wrap {
+    background-color: #1c1c1c !important;
+    color: #d4be98 !important;
+  }
+  .header {
+    background-color: #1c1c1c !important;
+    color: #d4be98 !important;
+  }
+
+  a {
+    color: #a9b665 !important;
+  }
+  .result__a {
+    color: #c5b18d !important;
+  }
+  .content-wrap div.result__extras__url a {
+    color: #7daea3 !important;
+  }
+  .content-wrap div.result__extras__url a span {
+    color: #7daea3 !important;
+  }
+  .result__snippet,
+  .result__snippet b,
+  .sitelink--small__comma {
+    color: #ddc7a1 !important;
+  }
+
+  .js-results-sidebar span {
+    color: #d4be98 !important;
+  }
+  .js-results-sidebar a {
+    color: #7daea3 !important;
+  }
+  .about-profiles a,
+  .about-profiles .module__link,
+  .about-profiles a:hover {
+    color: #d4be98 !important;
+  }
+
+  .zcm__link {
+    padding: 0 8px !important;
+  }
+
+  .zcm__link:hover,
+  .zcm__link:active,
+  .zcm__link.is-active {
+    border-bottom-color: #d4be98 !important;
+    background-color: #101010;
+  }
+
+  .zcm-wrap-wrap a {
+    color: #d4be98 !important;
+  }
+
+  .search-filters-wrap::before,
+  .search-filters-wrap::after {
+    background-image: none;
+  }
+
+  .acp {
+    color: #d4be98 !important;
+  }
+
+  .search__input--adv {
+    color: #d4be98 !important;
+  }
+
+  .tag-home__item {
+    color: #d4be98 !important;
+  }
+
+  .results,
+  .results--powered,
+  .results--ads--rrail,
+  .result__extras__url,
+  .msg,
+  .dropdown .dropdown__button,
+  .dropdown--region.has-inactive-region .dropdown__button,
+  .dir-btn .btn.dir-btn__link:hover,
+  .dropdown--region.has-inactive-region .dropdown__button::after,
+  .dropdown:hover .dropdown__button,
+  .dropdown.is-active:hover .dropdown__button,
+  .dropdown.dropdown--location .dropdown__button,
+  .nav-menu__feedback__icon:hover,
+  .nav-menu__feedback__icon:focus,
+  .feedback-btn__icon:hover,
+  .feedback-btn__send:hover,
+  .feedback-btn__icon:focus,
+  .feedback-btn__send:focus,
+  .address-detail__name,
+  .address-detail__name:hover,
+  .address-detail__name:active,
+  .address-detail__name:focus,
+  .address-detail__name:visited,
+  .address-detail .btn.btn--primary:hover,
+  .vertical--map__sidebar,
+  .set-main .frm__desc,
+  .tag-home,
+  .about-info-box__info-label,
+  .about-info-box__info-value,
+  .modal__box,
+  .place-detail,
+  .review__rating-date,
+  .place-list-item__info__item,
+  .module--carousel-products .module--carousel__footer,
+  .forecast-wrapper
+    .module--forecast
+    .module__weather-warning:visited:not(.module__weather-warning--red),
+  .pika-label,
+  .pika-table th,
+  .modal__box.modal__box--custom_date.modal__box--headed
+    .modal__box__content
+    .pika-single
+    .pika-table
+    tbody
+    .pika-day,
+  .modal__box.modal__box--custom_date.modal__box--headed
+    .modal__box__content
+    .pika-single
+    .pika-prev,
+  .modal__box.modal__box--custom_date.modal__box--headed
+    .modal__box__content
+    .pika-single
+    .pika-next {
+    color: #d4be98 !important;
+  }
+
+  .msg--spelling :link,
+  .msg--spelling :visited,
+  .msg--spelling a:hover,
+  .msg__clear,
+  .msg__clear:hover,
+  .msg__all,
+  .msg__all:visited {
+    color: #d4be98 !important;
+  }
+}

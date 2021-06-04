@@ -1,0 +1,21 @@
+[2021-06-01 23:29:56.210] [sharedprocess] [info] Deleted from disk ms-vscode-remote.remote-wsl /home/jonathan/.vscode/extensions/ms-vscode-remote.remote-wsl-0.56.3
+[2021-06-01 23:29:56.280] [sharedprocess] [info] Deleted from disk sainnhe.gruvbox-material /home/jonathan/.vscode/extensions/sainnhe.gruvbox-material-6.4.4
+[2021-06-01 23:29:57.947] [sharedprocess] [info] Installing extension: dart-code.dart-code
+[2021-06-01 23:29:57.947] [sharedprocess] [info] Installing extension: dart-code.flutter
+[2021-06-01 23:29:57.948] [sharedprocess] [info] Installing extension: ms-vsliveshare.vsliveshare
+[2021-06-01 23:29:58.586] [sharedprocess] [info] Downloaded extension: dart-code.flutter /home/jonathan/.config/Code/CachedExtensionVSIXs/dart-code.flutter-3.23.0
+[2021-06-01 23:29:58.599] [sharedprocess] [info] Extracted extension to /home/jonathan/.vscode/extensions/.456c7aef-0821-4b00-b457-d4642bd05e60: dart-code.flutter
+[2021-06-01 23:29:58.603] [sharedprocess] [info] Renamed to /home/jonathan/.vscode/extensions/dart-code.flutter-3.23.0
+[2021-06-01 23:29:58.604] [sharedprocess] [info] Installation completed. dart-code.flutter
+[2021-06-01 23:29:58.651] [sharedprocess] [info] Extensions installed successfully: dart-code.flutter
+[2021-06-01 23:30:00.218] [sharedprocess] [info] Downloaded extension: dart-code.dart-code /home/jonathan/.config/Code/CachedExtensionVSIXs/dart-code.dart-code-3.23.0
+[2021-06-01 23:30:02.320] [sharedprocess] [info] Downloaded extension: ms-vsliveshare.vsliveshare /home/jonathan/.config/Code/CachedExtensionVSIXs/ms-vsliveshare.vsliveshare-1.0.4360
+[2021-06-01 23:30:02.809] [sharedprocess] [info] Extracted extension to /home/jonathan/.vscode/extensions/.c9601275-a0a7-40b6-b629-c66f7f106213: ms-vsliveshare.vsliveshare
+[2021-06-01 23:30:02.817] [sharedprocess] [info] Renamed to /home/jonathan/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.4360
+[2021-06-01 23:30:02.818] [sharedprocess] [info] Installation completed. ms-vsliveshare.vsliveshare
+[2021-06-01 23:30:02.829] [sharedprocess] [info] Extensions installed successfully: ms-vsliveshare.vsliveshare
+[2021-06-01 23:30:03.002] [sharedprocess] [info] Extracted extension to /home/jonathan/.vscode/extensions/.476f2f02-010a-4a03-8c49-3825ae32381b: dart-code.dart-code
+[2021-06-01 23:30:03.002] [sharedprocess] [info] Renamed to /home/jonathan/.vscode/extensions/dart-code.dart-code-3.23.0
+[2021-06-01 23:30:03.002] [sharedprocess] [info] Installation completed. dart-code.dart-code
+[2021-06-01 23:30:03.011] [sharedprocess] [info] Extensions installed successfully: dart-code.dart-code
+[2021-06-01 23:30:35.882] [sharedprocess] [info] Starting to clean up unused language packs.

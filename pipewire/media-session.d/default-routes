@@ -1,0 +1,14 @@
+{
+  "default.route.alsa_card.usb-Corsair_Corsair_VOID_PRO_Wireless_Gaming_Headset-00:profile:off": [ ],
+  "default.route.alsa_card.pci-0000_2f_00.1:profile:off": [ ],
+  "default.route.alsa_card.usb-046d_Logitech_BRIO_19B267FC-03:profile:off": [ ],
+  "default.route.alsa_card.pci-0000_31_00.4:profile:off": [ ],
+  "default.route.alsa_card.usb-Corsair_Corsair_VOID_PRO_Wireless_Gaming_Headset-00:profile:output:analog-stereo+input:mono-fallback": [ ],
+  "default.route.alsa_card.pci-0000_2f_00.1:profile:output:hdmi-stereo-extra2": [ ],
+  "default.route.alsa_card.usb-046d_Logitech_BRIO_19B267FC-03:profile:input:analog-stereo": [ ],
+  "default.route.alsa_card.pci-0000_31_00.4:profile:output:analog-stereo": [ "analog-output-lineout" ],
+  "default.route.alsa_card.pci-0000_31_00.4:output:analog-output-lineout": { "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "default.route.alsa_card.pci-0000_31_00.4:output:analog-output-headphones": { "mute": false, "volumes": [ 0.399992, 0.399992 ], "channels": [ "FL", "FR" ] },
+  "default.route.alsa_card.pci-0000_2f_00.1:output:hdmi-output-2": { "mute": false, "volumes": [ 0.399992, 0.399992 ], "channels": [ "FL", "FR" ] },
+  "default.route.alsa_card.pci-0000_2f_00.1:profile:output:hdmi-stereo-extra4": [ ]
+}

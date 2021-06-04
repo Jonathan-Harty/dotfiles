@@ -1,0 +1,89 @@
+[2021-05-30 21:36:14.561] [exthost] [info] extension host started
+[2021-05-30 21:36:14.603] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-05-30 21:36:14.603] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-05-30 21:36:14.610] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments {"startup":false,"extensionId":{"value":"aaron-bond.better-comments","_lower":"aaron-bond.better-comments"},"activationEvent":"onLanguage:plaintext"}
+[2021-05-30 21:36:14.610] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/aaron-bond.better-comments-2.1.0/out/extension
+[2021-05-30 21:36:14.611] [exthost] [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv {"startup":false,"extensionId":{"value":"mechatroner.rainbow-csv","_lower":"mechatroner.rainbow-csv"},"activationEvent":"onLanguage:plaintext"}
+[2021-05-30 21:36:14.611] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/mechatroner.rainbow-csv-1.8.1/extension
+[2021-05-30 21:36:14.613] [exthost] [info] ExtensionService#_doActivateExtension sumneko.lua {"startup":false,"extensionId":{"value":"sumneko.lua","_lower":"sumneko.lua"},"activationEvent":"onLanguage:lua"}
+[2021-05-30 21:36:14.613] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/sumneko.lua-1.21.2/client/out/extension
+[2021-05-30 21:36:14.677] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-05-30 21:36:14.677] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-05-30 21:36:14.678] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-05-30 21:36:14.678] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2021-05-30 21:36:14.688] [exthost] [info] ExtensionService#_doActivateExtension bierner.emojisense {"startup":true,"extensionId":{"value":"bierner.emojisense","_lower":"bierner.emojisense"},"activationEvent":"*"}
+[2021-05-30 21:36:14.688] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/bierner.emojisense-0.8.0/dist/extension
+[2021-05-30 21:36:14.693] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2 {"startup":true,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer-2","_lower":"coenraads.bracket-pair-colorizer-2"},"activationEvent":"*"}
+[2021-05-30 21:36:14.693] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/extension
+[2021-05-30 21:36:14.708] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":true,"extensionId":{"value":"ecmel.vscode-html-css","_lower":"ecmel.vscode-html-css"},"activationEvent":"*"}
+[2021-05-30 21:36:14.708] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/ecmel.vscode-html-css-1.10.2/dist/extension.js
+[2021-05-30 21:36:14.722] [exthost] [info] ExtensionService#_doActivateExtension JonathanHarty.gruvbox-material-icon-theme {"startup":true,"extensionId":{"value":"JonathanHarty.gruvbox-material-icon-theme","_lower":"jonathanharty.gruvbox-material-icon-theme"},"activationEvent":"*"}
+[2021-05-30 21:36:14.722] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/jonathanharty.gruvbox-material-icon-theme-1.1.4/dist/extension
+[2021-05-30 21:36:14.730] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"extensionId":{"value":"ms-vsliveshare.vsliveshare","_lower":"ms-vsliveshare.vsliveshare"},"activationEvent":"*"}
+[2021-05-30 21:36:14.730] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.4272/out/prod/extension-prod
+[2021-05-30 21:36:14.849] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight {"startup":true,"extensionId":{"value":"naumovs.color-highlight","_lower":"naumovs.color-highlight"},"activationEvent":"*"}
+[2021-05-30 21:36:14.849] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/naumovs.color-highlight-2.3.0/dist/extension
+[2021-05-30 21:36:14.854] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2021-05-30 21:36:14.854] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/pkief.material-icon-theme-4.7.0/dist/extension
+[2021-05-30 21:36:14.866] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2021-05-30 21:36:14.866] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2021-05-30 21:36:15.076] [exthost] [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material {"startup":true,"extensionId":{"value":"sainnhe.gruvbox-material","_lower":"sainnhe.gruvbox-material"},"activationEvent":"*"}
+[2021-05-30 21:36:15.076] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/sainnhe.gruvbox-material-6.4.4/out/extension.js
+[2021-05-30 21:36:15.089] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"extensionId":{"value":"streetsidesoftware.code-spell-checker","_lower":"streetsidesoftware.code-spell-checker"},"activationEvent":"*"}
+[2021-05-30 21:36:15.089] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/streetsidesoftware.code-spell-checker-1.10.2/dist/extension.js
+[2021-05-30 21:36:15.101] [exthost] [error] Activating extension PKief.material-icon-theme failed due to an error:
+[2021-05-30 21:36:15.101] [exthost] [error] Error: command 'material-icon-theme.activateIcons' already exists
+	at E.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:106658)
+	at Object.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:96:20596)
+	at /home/jonathan/.vscode/extensions/pkief.material-icon-theme-4.7.0/dist/extension.js:1:46920
+	at Array.map (<anonymous>)
+	at Object.5885 (/home/jonathan/.vscode/extensions/pkief.material-icon-theme-4.7.0/dist/extension.js:1:46901)
+	at n (/home/jonathan/.vscode/extensions/pkief.material-icon-theme-4.7.0/dist/extension.js:1:148618)
+	at Object.112 (/home/jonathan/.vscode/extensions/pkief.material-icon-theme-4.7.0/dist/extension.js:1:52397)
+	at n (/home/jonathan/.vscode/extensions/pkief.material-icon-theme-4.7.0/dist/extension.js:1:148618)
+	at /home/jonathan/.vscode/extensions/pkief.material-icon-theme-4.7.0/dist/extension.js:1:148781
+	at Object.<anonymous> (/home/jonathan/.vscode/extensions/pkief.material-icon-theme-4.7.0/dist/extension.js:1:148806)
+	at Module.u._compile (/opt/visual-studio-code/resources/app/out/vs/loader.js:4:1311)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1155:10)
+	at Module.load (internal/modules/cjs/loader.js:982:32)
+	at Module._load (internal/modules/cjs/loader.js:823:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12684)
+	at Function.s._load (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:27816)
+	at Function.S._load (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:24532)
+	at Function.a._load (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:96:58822)
+	at Module.require (internal/modules/cjs/loader.js:1006:19)
+	at require (internal/modules/cjs/helpers.js:88:18)
+	at Function.t [as __$__nodeRequire] (/opt/visual-studio-code/resources/app/out/vs/loader.js:5:101)
+	at d._loadCommonJSModule (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:25941)
+	at d._doActivateExtension (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:92:12457)
+	at d._activateExtension (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:92:11516)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async Promise.all (index 8)
+	at async Promise.all (index 0)
+[2021-05-30 21:36:15.669] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-05-30 21:36:15.669] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-05-30 21:36:15.762] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":false,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-05-30 21:36:15.762] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github/dist/extension.js
+[2021-05-30 21:36:15.817] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-05-30 21:36:15.817] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-05-30 21:36:17.014] [exthost] [info] eager extensions activated
+[2021-05-30 21:36:17.326] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-05-30 21:36:17.326] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-05-30 21:36:17.329] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-05-30 21:36:17.329] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-05-30 21:36:17.330] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-05-30 21:36:17.330] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-05-30 21:36:17.330] [exthost] [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss {"startup":false,"extensionId":{"value":"bradlc.vscode-tailwindcss","_lower":"bradlc.vscode-tailwindcss"},"activationEvent":"onStartupFinished"}
+[2021-05-30 21:36:17.330] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/bradlc.vscode-tailwindcss-0.6.6/dist/extension/index.js
+[2021-05-30 21:36:17.334] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":false,"extensionId":{"value":"eamodio.gitlens","_lower":"eamodio.gitlens"},"activationEvent":"onStartupFinished"}
+[2021-05-30 21:36:17.334] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/eamodio.gitlens-11.4.1/dist/gitlens
+[2021-05-30 21:36:17.352] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-05-30 21:36:17.352] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/esbenp.prettier-vscode-6.4.0/dist/extension
+[2021-05-30 21:36:17.376] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers {"startup":false,"extensionId":{"value":"ms-vscode-remote.remote-containers","_lower":"ms-vscode-remote.remote-containers"},"activationEvent":"onStartupFinished"}
+[2021-05-30 21:36:17.376] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/ms-vscode-remote.remote-containers-0.177.2/dist/extension/extension
+[2021-05-30 21:36:17.394] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl {"startup":false,"extensionId":{"value":"ms-vscode-remote.remote-wsl","_lower":"ms-vscode-remote.remote-wsl"},"activationEvent":"onStartupFinished"}
+[2021-05-30 21:36:17.394] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/jonathan/.vscode/extensions/ms-vscode-remote.remote-wsl-0.56.3/dist/extension
+[2021-05-30 21:38:16.415] [exthost] [warning] sumneko.lua - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2021-05-30 21:42:23.318] [exthost] [warning] sumneko.lua - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2021-05-30 21:49:26.785] [exthost] [warning] sumneko.lua - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2021-05-30 21:49:27.620] [exthost] [warning] sumneko.lua - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.rewrite'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.

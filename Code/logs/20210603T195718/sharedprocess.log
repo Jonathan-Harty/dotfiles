@@ -1,0 +1,7 @@
+[2021-06-03 19:57:21.579] [sharedprocess] [info] Installing extension: svelte.svelte-vscode
+[2021-06-03 19:57:24.438] [sharedprocess] [info] Downloaded extension: svelte.svelte-vscode /home/jonathan/.config/Code/CachedExtensionVSIXs/svelte.svelte-vscode-105.1.0
+[2021-06-03 19:57:25.674] [sharedprocess] [info] Extracted extension to /home/jonathan/.vscode/extensions/.19899450-af20-4791-a4cc-cfbe53deec1a: svelte.svelte-vscode
+[2021-06-03 19:57:25.682] [sharedprocess] [info] Renamed to /home/jonathan/.vscode/extensions/svelte.svelte-vscode-105.1.0
+[2021-06-03 19:57:25.683] [sharedprocess] [info] Installation completed. svelte.svelte-vscode
+[2021-06-03 19:57:25.691] [sharedprocess] [info] Extensions installed successfully: svelte.svelte-vscode
+[2021-06-03 19:57:59.427] [sharedprocess] [info] Starting to clean up unused language packs.
