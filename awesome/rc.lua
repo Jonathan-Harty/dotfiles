@@ -4,6 +4,9 @@ require('awful.autofocus')
 local beautiful = require('beautiful')
 beautiful.init(require('theme'))
 
+local apps = require('config.apps')
+local run_once = require('utilities.run-once')
+
 local set_wallpaper = require('utilities.wallpaper')
 
 require('layout')
@@ -12,6 +15,10 @@ require('utilities.backdrop')
 require('config.client')
 require('config.tags')
 
+local slider = require('widgets.slider')
+slider(beautiful.icons.volume, beautiful.icons.volume_low, beautiful.icons.mute, 60, 0, 'volume_change', 'pamixer --get-volume-human')
+slider(beautiful.icons.brightness_high, beautiful.icons.brightness, beautiful.icons.brightness_low, 60, 15, 'brightness_change', 'light -G')
+
 _G.root.keys(require('config.keys.key-bindings'))
 
 awful.screen.connect_for_each_screen(
@@ -19,6 +26,10 @@ awful.screen.connect_for_each_screen(
     set_wallpaper(screen)
   end
 )
+
+for _, app in pairs(apps.autorun) do
+  run_once(app)
+end
 
 _G.client.connect_signal(
   'manage',
@@ -43,12 +54,12 @@ _G.client.connect_signal(
 _G.client.connect_signal(
   'focus',
   function(client)
-    -- client.border_color = beautiful.border_focus
+    client.border_color = beautiful.border_focus
   end
 )
 _G.client.connect_signal(
   'unfocus',
   function(client)
-    -- client.border_color = beautiful.border_normal
+    client.border_color = beautiful.border_normal
   end
 )

@@ -1,9 +1,9 @@
 local awful = require('awful')
 local gears = require('gears')
 local beautiful = require('beautiful')
+local naughty = require('naughty')
 
 local function UpdateClient(client)
-
   if client.fullscreen then
     client.shape = gears.shape.rectangle
   else

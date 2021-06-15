@@ -111,7 +111,7 @@ local bar = function(screen, drawer, width)
     {
       layout = wibox.layout.fixed.vertical,
       wibox.container.margin(systray, dpi(14), dpi(14)),
-      wibox.container.margin(LayoutBox(screen), dpi(10), dpi(10), dpi(0), dpi(8))
+      wibox.container.margin(LayoutBox(screen), dpi(12), dpi(12), dpi(0), dpi(8))
     },
   }
 

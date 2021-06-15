@@ -6,46 +6,43 @@ local ruled = require('ruled')
 local menubar = require('menubar')
 
 
-naughty.config.padding = 8
+naughty.config.padding = 16
 naughty.config.spacing = 8
 
-naughty.config.defaults.ontop = true
-naughty.config.defaults.position = 'top_right'
-naughty.config.defaults.shape = gears.shape.rounded_rect
-naughty.config.defaults.margin = dpi(16)
-naughty.config.defaults.border_width = 0
-naughty.config.defaults.icon_size = dpi(32)
+naughty.config.defaults.ontop         = true
+naughty.config.defaults.position      = 'top_right'
+naughty.config.defaults.shape         = gears.shape.rounded_rect
+naughty.config.defaults.margin        = dpi(10)
+naughty.config.defaults.border_width  = 0
+naughty.config.defaults.icon_size     = dpi(32)
 
 ruled.notification.connect_signal(
   'request::rules',
   function()
     ruled.notification.append_rule {
-      rule = { urgency = 'critical'},
+      rule = { urgency = 'critical' },
       properties = {
         font = beautiful.font,
         bg = beautiful.colors.red,
         fg = beautiful.colors.fg,
-        margin = dpi(16),
       }
     }
 
     ruled.notification.append_rule {
-      rule = { urgency = 'normal'},
+      rule = { urgency = 'normal' },
       properties = {
         font = beautiful.font,
         bg = beautiful.colors.bg,
         fg = beautiful.colors.fg,
-        margin = dpi(16),
       }
     }
 
     ruled.notification.append_rule {
-      rule = { urgency = 'low'},
+      rule = { urgency = 'low' },
       properties = {
         font = beautiful.font,
         bg = beautiful.colors.bg,
         fg = beautiful.colors.fg,
-        margin = dpi(16),
       }
     }
   end

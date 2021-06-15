@@ -1,4 +1,4 @@
-local dir = os.getenv("HOME") .. '/.config/new-awesome/assets/icons/'
+local dir = os.getenv("HOME") .. '/.config/awesome/assets/icons/'
 
 local icons = {
   -- tag icons
@@ -13,18 +13,22 @@ local icons = {
   sandbox     =       dir .. 'lab.svg',
 
   -- other icons
-  awesome     =       dir .. 'awesome_logo.svg',
-  menu        =       dir .. 'menu.svg',
-  close       =       dir .. 'close.svg',
-  power       =       dir .. 'power.svg',
-  restart     =       dir .. 'restart.svg',
-  sleep       =       dir .. 'sleep.svg',
-  logout      =       dir .. 'logout.svg',
-  lock        =       dir .. 'lock.svg',
-  search      =       dir .. 'search.svg',
-  volume      =       dir .. 'volume.svg',
-  add         =       dir .. 'add.svg',
-  brightness  =       dir .. 'brightness.svg'
+  awesome         =       dir .. 'awesome_logo.svg',
+  menu            =       dir .. 'menu.svg',
+  close           =       dir .. 'close.svg',
+  power           =       dir .. 'power.svg',
+  restart         =       dir .. 'restart.svg',
+  sleep           =       dir .. 'sleep.svg',
+  logout          =       dir .. 'logout.svg',
+  lock            =       dir .. 'lock.svg',
+  search          =       dir .. 'search.svg',
+  add             =       dir .. 'add.svg',
+  volume          =       dir .. 'volume.svg',
+  volume_low      =       dir .. 'volume-low.svg',
+  mute            =       dir .. 'mute.svg',
+  brightness      =       dir .. 'brightness.svg',
+  brightness_low  =       dir .. 'brightness-low.svg',
+  brightness_high =       dir .. 'brightness-high.svg'
 }
 
 return icons

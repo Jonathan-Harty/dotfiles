@@ -6,29 +6,27 @@ local apps = require('config.apps')
 local awful = require('awful')
 local wibox = require('wibox')
 local utils = require('utilities.utils')
+local filesystem = require('gears.filesystem')
 
 local left_drawer = function(screen)
-  local drawer_width = dpi(80)
-  local drawer_content_width = dpi(400)
-
   local drawer = wibox {
     screen = screen,
     type = 'dock',
-    width = drawer_width,
+    width = beautiful.bar_width,
     height = screen.geometry.height - 20,
     x = screen.geometry.x,
     y = screen.geometry.y + 10,
     ontop = true,
     bg = beautiful.colors.bg,
-    fg = beautiful.fg,
-    shape = utils.prrect(drawer_width, false, true, true, false)
+    fg = beautiful.colors.fg,
+    shape = utils.prrect(beautiful.bar_width, false, true, true, false)
   }
 
   drawer.is_open = false
   -- drawer.visible = true
 
   drawer:struts {
-    left = drawer_width
+    left = beautiful.bar_width
   }
 
   local backdrop = wibox {
@@ -71,29 +69,36 @@ local left_drawer = function(screen)
   function drawer:run_app_switcher()
     local curr_tag = awful.screen.focused().selected_tag.name
 
+    local regex = '^' .. curr_tag .. ' '
+    local rofi_loc = filesystem.get_configuration_dir() .. '/config/rofi.rasi'
+    _G.awesome.spawn(
+      'rofi -show window -theme ' .. rofi_loc .. ' -matching regex -filter "' .. regex .. '"',
+      false,
+      false,
+      false,
+      false,
+      function()
+        drawer:toggle()
+      end
+    )
   end
 
-  local open_drawer = function(running_appmenu, running_window_switcher)
-    drawer.width = drawer_width + drawer_content_width
+  local open_drawer = function()
+    drawer.width = beautiful.bar_width + beautiful.drawer_content_width
     backdrop.visible = true
     drawer.visible = false
     drawer.visible = true
     drawer:get_children_by_id('drawer_content')[1].visible = true
-    drawer.shape = utils.prrect(drawer_width * 0.5, false, true, true, false)
-    if running_appmenu then
-      drawer:run_appmenu()
-    elseif running_window_switcher then
-      drawer:run_window_switcher()
-    end
+    drawer.shape = utils.prrect(beautiful.bar_width * 0.5, false, true, true, false)
 
     drawer:emit_signal('opened')
   end
 
   local close_drawer = function()
-    drawer.width = drawer_width
+    drawer.width = beautiful.bar_width
     drawer:get_children_by_id('drawer_content')[1].visible = false
     backdrop.visible = false
-    drawer.shape = utils.prrect(drawer_width, false, true, true, false)
+    drawer.shape = utils.prrect(beautiful.bar_width, false, true, true, false)
     drawer:emit_signal('closed')
   end
 
@@ -104,9 +109,9 @@ local left_drawer = function(screen)
     end
   end
 
-  function drawer:toggle(running_appmenu, running_window_switcher)
+  function drawer:toggle()
     if not drawer.is_open then
-      open_drawer(running_appmenu, running_window_switcher)
+      open_drawer()
     else
       close_drawer()
     end
@@ -131,16 +136,16 @@ local left_drawer = function(screen)
     nil,
     {
       id = 'drawer_content',
-      bg = beautiful.colors.bg_dark,
+      bg = beautiful.colors.bg_darker,
       widget = wibox.container.background,
       visible = false,
-      forced_width = drawer_content_width,
+      forced_width = beautiful.drawer_content_width,
       {
         require('layout.left-drawer.drawer-content')(screen, drawer),
         layout = wibox.layout.stack
       }
     },
-    require('layout.left-drawer.bar')(screen, drawer, drawer_width)
+    require('layout.left-drawer.bar')(screen, drawer, beautiful.bar_width)
   }
 
   return drawer

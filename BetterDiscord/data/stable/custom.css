@@ -64,3 +64,20 @@
 .theme-dark .container-1D34oG {
   background-color: #383432;
 }
+
+#app-mount
+  > div.app-1q1i1E
+  > div
+  > div.layers-3iHuyZ.layers-3q14ss
+  > div
+  > div
+  > div
+  > div
+  > div.container-1D34oG
+  > section
+  > div.children-19S4PO
+  > div.tabBar-ZmDY9v.topPill-30KHOu
+  > div:nth-child(5) {
+  background-color: #a9b665;
+  color: #d4be98;
+}

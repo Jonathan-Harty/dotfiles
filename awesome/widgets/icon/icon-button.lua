@@ -1,6 +1,7 @@
 local wibox = require('wibox')
 local dpi = require('beautiful').xresources.apply_dpi
 local gears = require('gears')
+local Container = require('widgets.icon.container')
 
 function Icon(imagebox)
   local margin = 6
