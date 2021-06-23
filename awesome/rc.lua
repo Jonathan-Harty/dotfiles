@@ -2,7 +2,10 @@ local awful = require('awful')
 require('awful.autofocus')
 
 local beautiful = require('beautiful')
-beautiful.init(require('theme'))
+local theme = require('theme')
+beautiful.init(theme)
+beautiful.theme_assets.recolor_layout(theme, theme.colors.fg)
+
 
 local apps = require('config.apps')
 local run_once = require('utilities.run-once')

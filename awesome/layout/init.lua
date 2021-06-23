@@ -1,7 +1,8 @@
 local awful = require('awful')
 local left_drawer = require('layout.left-drawer')
 
-awful.screen.connect_for_each_screen(
+_G.screen.connect_signal(
+  'request::desktop_decoration',
   function (screen)
     screen.left_drawer = left_drawer(screen)
   end

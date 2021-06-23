@@ -2,15 +2,15 @@ local dir = os.getenv("HOME") .. '/.config/awesome/assets/icons/'
 
 local icons = {
   -- tag icons
-  browser     =       dir .. 'browser.svg',
-  code        =       dir .. 'code.svg',
-  music       =       dir .. 'music.svg',
-  social      =       dir .. 'social.svg',
-  art         =       dir .. 'art.svg',
-  files       =       dir .. 'folder.svg',
-  virts       =       dir .. 'computer.svg',
-  terminal    =       dir .. 'terminal.svg',
-  sandbox     =       dir .. 'lab.svg',
+  browser         =       dir .. 'browser.svg',
+  code            =       dir .. 'code.svg',
+  music           =       dir .. 'music.svg',
+  social          =       dir .. 'social.svg',
+  art             =       dir .. 'art.svg',
+  files           =       dir .. 'folder.svg',
+  virts           =       dir .. 'computer.svg',
+  terminal        =       dir .. 'terminal.svg',
+  sandbox         =       dir .. 'lab.svg',
 
   -- other icons
   awesome         =       dir .. 'awesome_logo.svg',
@@ -28,7 +28,13 @@ local icons = {
   mute            =       dir .. 'mute.svg',
   brightness      =       dir .. 'brightness.svg',
   brightness_low  =       dir .. 'brightness-low.svg',
-  brightness_high =       dir .. 'brightness-high.svg'
+  brightness_high =       dir .. 'brightness-high.svg',
+
+  -- layout icons
+  tile            =       dir .. 'layouts/tile.png',
+  floating        =       dir .. 'layouts/floating.png',
+  fair            =       dir .. 'layouts/fair.png',
+  max             =       dir .. 'layouts/max.png',
 }
 
 return icons

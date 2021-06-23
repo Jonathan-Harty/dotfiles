@@ -6,6 +6,7 @@ local icons = require('assets.icons')
 local dpi = beautiful.xresources.apply_dpi
 local container = require('widgets.icon.container')
 local TagList = require('widgets.tag-list')
+local clock_widget = require('widgets.clock')
 
 
 local bar = function(screen, drawer, width)
@@ -111,7 +112,14 @@ local bar = function(screen, drawer, width)
     {
       layout = wibox.layout.fixed.vertical,
       wibox.container.margin(systray, dpi(14), dpi(14)),
-      wibox.container.margin(LayoutBox(screen), dpi(12), dpi(12), dpi(0), dpi(8))
+      {
+        clock_widget,
+        valign = 'center',
+        halign = 'center',
+        layout = wibox.container.place
+      },
+      
+      wibox.container.margin(LayoutBox(screen), dpi(20), dpi(20), dpi(0), dpi(26))
     },
   }
 

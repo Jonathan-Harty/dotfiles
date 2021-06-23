@@ -51,18 +51,12 @@ local tags = {
   },
 }
 
-_G.tag.connect_signal(
-	'request::default_layouts',
-  function()
-    awful.layout.append_default_layouts({
-      awful.layout.suit.spiral,
-      awful.layout.suit.floating,
-      awful.layout.suit.fairh,
-      awful.layout.suit.tile,
-      awful.layout.suit.max
-    })
-  end
-)
+awful.layout.layouts = {
+  awful.layout.suit.tile,
+  awful.layout.suit.floating,
+  awful.layout.suit.fair,
+  awful.layout.suit.max
+}
 
 awful.screen.connect_for_each_screen(
   function(screen)
@@ -72,7 +66,7 @@ awful.screen.connect_for_each_screen(
         {
           icon = tag.icon,
           icon_only = true,
-          layout = tag.layout or awful.layout.suit.spiral,
+          layout = tag.layout or awful.layout.suit.tile,
           gap_single_client = true,
           gap = 8,
           screen = screen,

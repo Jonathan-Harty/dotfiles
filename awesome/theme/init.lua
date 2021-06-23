@@ -31,6 +31,11 @@ theme.rounded_rect = function(cr, width, height)
   gears.shape.rounded_rect(cr, width, height, dpi(12))
 end
 
+theme.layout_tile = theme.icons.tile
+theme.layout_floating = theme.icons.floating
+theme.layout_fairv = theme.icons.fair
+theme.layout_max = theme.icons.max
+
 theme.bg_systray = colors.bg
 
 theme.taglist_bg_empty = colors.bg
@@ -86,6 +91,7 @@ theme.taglist_bg_focus = {
     {0.05,  theme.colors.bg},
     {1,     theme.colors.bg}
   }
-} 
+}
+
 
 return theme

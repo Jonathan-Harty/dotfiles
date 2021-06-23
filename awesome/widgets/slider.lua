@@ -3,13 +3,14 @@ local awful = require('awful')
 local gears = require('gears')
 local beautiful = require('beautiful')
 local dpi = beautiful.xresources.apply_dpi
-local naughty = require('naughty')
 
 return function (icon_high_path, icon_low_path, icon_off_path, high_threshold, low_threshold, signal, command)
   local screen = awful.screen.focused()
 
-  local x_offset = dpi(60)
-  local y_offset = dpi(300)
+  local x_dpi = 60
+  local y_dpi = 300
+  local x_offset = dpi(x_dpi)
+  local y_offset = dpi(y_dpi)
   local slider_width = dpi(50)
   local slider_height = y_offset
 
@@ -69,6 +70,21 @@ return function (icon_high_path, icon_low_path, icon_off_path, high_threshold, l
       awful.spawn.easy_async_with_shell(
         command,
         function(stdout)
+          local s = awful.screen.focused()
+          local prev_screens_x = 0
+          for curr_screen in _G.screen do
+            if curr_screen == s then
+              break
+            end
+
+            prev_screens_x = prev_screens_x + curr_screen.geometry.width
+          end
+
+          x_offset = dpi(x_dpi, s)
+          y_offset = dpi(y_dpi, s)
+          slider.screen = s
+          slider.x = prev_screens_x + s.geometry.width - x_offset
+          slider.y = (s.geometry.height / 2) - (y_offset / 2)
           local level = tonumber(stdout)
 
           if level == nil then

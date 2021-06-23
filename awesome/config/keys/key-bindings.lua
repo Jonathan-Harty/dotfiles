@@ -3,13 +3,18 @@ local mod_keys = require('config.keys.mod-keys')
 local mod_key = mod_keys.mod_key
 local alt_key = mod_keys.alt_key
 local apps = require('config.apps')
+local volume_keys = require('config.keys.volume-keys')
+local brightness_keys = require('config.keys.brightness-keys')
+local drawer_keys = require('config.keys.drawer-keys')
+local layout_keys = require('config.keys.layout-keys')
 
 local key_bindings = awful.util.table.join(
-  awful.key({mod_key, 'Control'}, 
-		'r', 
-		_G.awesome.restart, 
+  awful.key({mod_key, 'Control'},
+		'r',
+		_G.awesome.restart,
 		{description = 'reload awesome', group = 'awesome'}
 	),
+	
   awful.key(
     {mod_key},
     'Return',
@@ -18,50 +23,6 @@ local key_bindings = awful.util.table.join(
     end,
     {description = 'open terminal', group = 'launcher'}
   ),
-  awful.key(
-    {mod_key},
-    'p',
-    function()
-      _G.screen.primary.left_drawer:toggle()
-    end,
-    {description = 'show panel', group = 'awesome'}
-  ),
-  awful.key(
-    {mod_key},
-    's',
-    function()
-      _G.screen.primary.left_drawer:toggle()
-      _G.screen.primary.left_drawer:run_appmenu()
-    end,
-    {description = 'run application launcher', group = 'awesome'}
-  ),
-	awful.key(
-    {mod_key},
-    'w',
-    function()
-      _G.screen.primary.left_drawer:toggle()
-      _G.screen.primary.left_drawer:run_app_switcher()
-    end,
-    {description = 'run application launcher', group = 'awesome'}
-  ),
-	awful.key(
-    {alt_key},
-    'Tab',
-    function()
-      _G.screen.primary.left_drawer:toggle()
-      _G.screen.primary.left_drawer:run_window_switcher()
-    end,
-    {description = 'run application launcher', group = 'awesome'}
-  ),
-	awful.key(
-    {mod_key},
-    'Escape',
-    function()
-      _G.screen.primary.left_panel:close()
-    end,
-    {description = 'close window switcher menu', group = 'client'}
-  ),
-	
 	awful.key(
 		{mod_key},
 		'm',
@@ -86,50 +47,15 @@ local key_bindings = awful.util.table.join(
 			end
 		end,
 		{description = 'restore minimized', group = 'screen'}
-	),
-	awful.key(
-    {},
-    'XF86MonBrightnessUp',
-    function()
-      awful.spawn('light -A 5')
-			_G.awesome.emit_signal('brightness_change')
-    end,
-    {description = '+5%', group = 'hotkeys'}
-  ),
-  awful.key(
-    {},
-    'XF86MonBrightnessDown',
-    function()
-      awful.spawn('light -U 5')
-			_G.awesome.emit_signal('brightness_change')
-    end,
-    {description = '-5%', group = 'hotkeys'}
-  ),
-	awful.key(
-    {},
-    'XF86AudioRaiseVolume',
-    function()
-      awful.spawn('pamixer -i 5')
-			_G.awesome.emit_signal('volume_change')
-    end,
-    {description = 'volume up', group = 'hotkeys'}
-  ),
-  awful.key(
-    {},
-    'XF86AudioLowerVolume',
-    function()
-      awful.spawn('pamixer -d 5')
-			_G.awesome.emit_signal('volume_change')
-    end,
-    {description = 'volume down', group = 'hotkeys'}
-  ),
-	awful.key({}, "XF86AudioMute",
-		function()
-				awful.spawn('pamixer -t')
-				_G.awesome.emit_signal("volume_change")
-		end,
-		{description = "toggle mute", group = "hotkeys"}
-   )
+	)
+)
+
+key_bindings = awful.util.table.join(
+	key_bindings,
+	volume_keys,
+	brightness_keys,
+	drawer_keys,
+	layout_keys
 )
 
 for i = 1, 9 do
